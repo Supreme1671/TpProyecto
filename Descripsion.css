@@ -13,4 +13,9 @@ body {
     width: 20px;
     height: 20%;
     
+    
   }  
+
+  p{
+    font-family: "Merriweather" , sans-serif;
+  }

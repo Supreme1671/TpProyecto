@@ -43,11 +43,13 @@ h2 {
 }
 
 .libro img {
-  width: 100%;
-  height: auto;
-  border-radius: 4px;
+  width: 150px;     
+  height: 220px;     
+  object-fit: cover; 
+  border-radius: 5px;
+  display: block;
+  margin: auto;
 }
-
 .footer {
   margin-top: 50px;
   text-align: center;
@@ -56,3 +58,17 @@ h2 {
   color: white;
 }
 
+.btn-ver-mas {
+  display: inline-block;
+  background-color: red;
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn-ver-mas:hover {
+  background-color: darkred;
+}
