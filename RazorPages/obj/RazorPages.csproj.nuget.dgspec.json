@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/Datos/TpProyecto/RazorPages/RazorPages.csproj": {}
+    "/mnt/Datos/Proyecto Razor Casimiro/TpProyecto/RazorPages/RazorPages.csproj": {}
   },
   "projects": {
-    "/mnt/Datos/TpProyecto/RazorPages/RazorPages.csproj": {
+    "/mnt/Datos/Proyecto Razor Casimiro/TpProyecto/RazorPages/RazorPages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/Datos/TpProyecto/RazorPages/RazorPages.csproj",
+        "projectUniqueName": "/mnt/Datos/Proyecto Razor Casimiro/TpProyecto/RazorPages/RazorPages.csproj",
         "projectName": "RazorPages",
-        "projectPath": "/mnt/Datos/TpProyecto/RazorPages/RazorPages.csproj",
+        "projectPath": "/mnt/Datos/Proyecto Razor Casimiro/TpProyecto/RazorPages/RazorPages.csproj",
         "packagesPath": "/home/et12alumno/.nuget/packages/",
-        "outputPath": "/mnt/Datos/TpProyecto/RazorPages/obj/",
+        "outputPath": "/mnt/Datos/Proyecto Razor Casimiro/TpProyecto/RazorPages/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/et12alumno/.nuget/NuGet/NuGet.Config"
