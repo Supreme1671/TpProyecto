@@ -9,49 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RazorPages
 build_property.RootNamespace = RazorPages
-build_property.ProjectDir = /mnt/Datos/Proyecto Razor Casimiro/TpProyecto/RazorPages/
+build_property.ProjectDir = /mnt/Datos/TpProyecto/TpProyecto/RazorPages/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /mnt/Datos/Proyecto Razor Casimiro/TpProyecto/RazorPages
+build_property.MSBuildProjectDirectory = /mnt/Datos/TpProyecto/TpProyecto/RazorPages
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[/mnt/Datos/Proyecto Razor Casimiro/TpProyecto/RazorPages/Pages/Error.cshtml]
+[/mnt/Datos/TpProyecto/TpProyecto/RazorPages/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/Datos/Proyecto Razor Casimiro/TpProyecto/RazorPages/Pages/Index.cshtml]
+[/mnt/Datos/TpProyecto/TpProyecto/RazorPages/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/Datos/Proyecto Razor Casimiro/TpProyecto/RazorPages/Pages/librodetalle.cshtml]
+[/mnt/Datos/TpProyecto/TpProyecto/RazorPages/Pages/librodetalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvbGlicm9kZXRhbGxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/Datos/Proyecto Razor Casimiro/TpProyecto/RazorPages/Pages/libros.cshtml]
+[/mnt/Datos/TpProyecto/TpProyecto/RazorPages/Pages/libros.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvbGlicm9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/Datos/Proyecto Razor Casimiro/TpProyecto/RazorPages/Pages/Privacy.cshtml]
+[/mnt/Datos/TpProyecto/TpProyecto/RazorPages/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/Datos/Proyecto Razor Casimiro/TpProyecto/RazorPages/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[/mnt/Datos/TpProyecto/TpProyecto/RazorPages/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/Datos/Proyecto Razor Casimiro/TpProyecto/RazorPages/Pages/_ViewImports.cshtml]
+[/mnt/Datos/TpProyecto/TpProyecto/RazorPages/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/Datos/Proyecto Razor Casimiro/TpProyecto/RazorPages/Pages/_ViewStart.cshtml]
+[/mnt/Datos/TpProyecto/TpProyecto/RazorPages/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/mnt/Datos/Proyecto Razor Casimiro/TpProyecto/RazorPages/Pages/Shared/_Layout.cshtml]
+[/mnt/Datos/TpProyecto/TpProyecto/RazorPages/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-8fjxvvsmas
