@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.registro-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+h2 {
+  margin: 20px;
+  color: black;
+}
+
+.registro-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registro-container input[type="email"],
+.registro-container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  border: 1px solid red;
+}
+
+.registro-container label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.mostrar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.registro-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.registro-container button:hover {
+  background-color: #444;
+}
