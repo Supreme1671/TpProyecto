@@ -12,17 +12,17 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"z5564p0jzo"},{"Name":"integrity","Value":"sha256-WVhpBPbqTDX9a7XVmFZnTaXFj6WLeBN3pkLgeiZSAVE="},{"Name":"label","Value":"_content/RazorPages/css/Descripsion.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"964"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022WVhpBPbqTDX9a7XVmFZnTaXFj6WLeBN3pkLgeiZSAVE=\u0022"},{"Name":"Last-Modified","Value":"Fri, 05 Sep 2025 19:46:09 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/RazorPages/css/estilos.amrp7ba9sg.css">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\estilos.css'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"amrp7ba9sg"},{"Name":"integrity","Value":"sha256-EqsdqZ7X6j9mBJIZPT8zeL/9AlWYI5C4Vjo7CYgDHhc="},{"Name":"label","Value":"_content/RazorPages/css/estilos.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1218"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022EqsdqZ7X6j9mBJIZPT8zeL/9AlWYI5C4Vjo7CYgDHhc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 05 Sep 2025 20:51:22 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RazorPages/css/estilos.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\estilos.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-EqsdqZ7X6j9mBJIZPT8zeL/9AlWYI5C4Vjo7CYgDHhc="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1218"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022EqsdqZ7X6j9mBJIZPT8zeL/9AlWYI5C4Vjo7CYgDHhc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 05 Sep 2025 20:51:22 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-7A3yBKppvdGon3Wq1YPKaGyLG4xQsFS7cnX2Y95JRdg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1235"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00227A3yBKppvdGon3Wq1YPKaGyLG4xQsFS7cnX2Y95JRdg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 05 Sep 2025 21:20:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RazorPages/css/estilos.oz53hkbeem.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\estilos.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"oz53hkbeem"},{"Name":"integrity","Value":"sha256-7A3yBKppvdGon3Wq1YPKaGyLG4xQsFS7cnX2Y95JRdg="},{"Name":"label","Value":"_content/RazorPages/css/estilos.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1235"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00227A3yBKppvdGon3Wq1YPKaGyLG4xQsFS7cnX2Y95JRdg=\u0022"},{"Name":"Last-Modified","Value":"Fri, 05 Sep 2025 21:20:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/RazorPages/css/registro.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\registro.css'))</AssetFile>

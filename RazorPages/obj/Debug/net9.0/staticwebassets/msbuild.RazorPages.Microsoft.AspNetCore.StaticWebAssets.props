@@ -30,8 +30,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>amrp7ba9sg</Fingerprint>
-      <Integrity>EqsdqZ7X6j9mBJIZPT8zeL/9AlWYI5C4Vjo7CYgDHhc=</Integrity>
+      <Fingerprint>oz53hkbeem</Fingerprint>
+      <Integrity>7A3yBKppvdGon3Wq1YPKaGyLG4xQsFS7cnX2Y95JRdg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\estilos.css'))</OriginalItemSpec>
