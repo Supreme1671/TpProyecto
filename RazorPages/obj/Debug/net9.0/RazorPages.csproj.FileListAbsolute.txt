@@ -18,7 +18,6 @@
 /mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
 /mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/scopedcss/bundle/RazorPages.styles.css
 /mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/scopedcss/projectbundle/RazorPages.bundle.scp.css
-/mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/compressed/8nx3d6ytb5-b9sayid5wm.gz
 /mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/compressed/5arplyv19n-61n19gt1b8.gz
 /mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/compressed/9imvbcgyvo-xtxxf3hu2r.gz
 /mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/compressed/8wdmp82xnq-bqjiyaj88i.gz
@@ -298,3 +297,7 @@
 /mnt/Datos/TpProyecto/TpProyecto/RazorPages/obj/Debug/net9.0/RazorPages.genruntimeconfig.cache
 /mnt/Datos/TpProyecto/TpProyecto/RazorPages/obj/Debug/net9.0/ref/RazorPages.dll
 /mnt/Datos/TpProyecto/TpProyecto/RazorPages/obj/Debug/net9.0/compressed/muq0h359jk-oz53hkbeem.gz
+/mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/compressed/r1aec1jl1e-z5564p0jzo.gz
+/mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/compressed/muq0h359jk-oz53hkbeem.gz
+/mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/compressed/1kpsv3pz2e-gzv9biphng.gz
+/mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/compressed/8nx3d6ytb5-vw78w4urbf.gz
