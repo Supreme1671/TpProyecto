@@ -301,3 +301,15 @@
 /mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/compressed/muq0h359jk-oz53hkbeem.gz
 /mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/compressed/1kpsv3pz2e-gzv9biphng.gz
 /mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/compressed/8nx3d6ytb5-vw78w4urbf.gz
+C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.AssemblyInfoInputs.cache
+C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.AssemblyInfo.cs
+C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.csproj.CoreCompileInputs.cache
+C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.RazorAssemblyInfo.cache
+C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.RazorAssemblyInfo.cs
+C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.sourcelink.json
+C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.dll
+C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\refint\RazorPages.dll
+C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.pdb
