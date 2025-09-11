@@ -4,11 +4,11 @@ using Microsoft.Extensions.Logging;
 
 namespace RazorPages.Pages;
 
-public class libros : PageModel
+public class Libros : PageModel
 {
-    private readonly ILogger<libros> _logger;
+    private readonly ILogger<Libros> _logger;
 
-    public libros(ILogger<libros> logger)
+    public Libros(ILogger<Libros> logger)
     {
         _logger = logger;
     }

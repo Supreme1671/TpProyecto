@@ -1,0 +1,25 @@
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.RazorPages;
+using RazorPages.Models;
+
+namespace RazorPages.Pages
+{
+    public class RegistoModel : PageModel
+    {
+        [BindProperty]
+        public Registro Registro { get; set; } = new Registro();
+
+        public void OnGet()
+        {
+        }
+
+        public IActionResult OnPost()
+        {
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
+            return RedirectToPage("/Index");
+        }
+    }
+}
