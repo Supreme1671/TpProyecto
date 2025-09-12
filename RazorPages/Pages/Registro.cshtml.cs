@@ -4,7 +4,7 @@ using RazorPages.Models;
 
 namespace RazorPages.Pages
 {
-    public class RegistoModel : PageModel
+    public class RegistroModel : PageModel
     {
         [BindProperty]
         public Registro Registro { get; set; } = new Registro();
@@ -19,6 +19,8 @@ namespace RazorPages.Pages
             {
                 return Page();
             }
+
+            // Acá podrías guardar los datos del registro
             return RedirectToPage("/Index");
         }
     }

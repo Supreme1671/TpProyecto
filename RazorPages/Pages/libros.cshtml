@@ -1,11 +1,33 @@
 @page
-@model RazorPages.Pages.Libros
+@model RazorPages.Pages.librosModel
 @{
-    ViewData["Title"] = "Libros";
+    ViewData["Title"] = "Lista de Libros";
 }
 
-<h1>@ViewData["Title"]</h1>
+<h2>Lista de Libros</h2>
 
-<div>
-    
-</div>
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>Año</th>
+            <th>Precio</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var libro in Model.ListaLibros)
+    {
+        <tr>
+            <td>@libro.Titulo</td>
+            <td>@libro.Autor</td>
+            <td>@libro.Anio</td>
+            <td>$@libro.Precio</td>
+            <td>
+                <a asp-page="/librodetalle" asp-route-id="@libro.Id" class="btn btn-primary">Ver más</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

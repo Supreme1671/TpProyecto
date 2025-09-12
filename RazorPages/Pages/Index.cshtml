@@ -4,13 +4,16 @@
     ViewData["Title"] = "Inicio";
 }
 
-<link rel="stylesheet" href="~/wwwroot/estilos.css" />
+<h2>Bookflix</h2>
 
-<div class="text-center">
-    <h1 class="display-4">LibroTeca</h1>
-</div>
+<p>
+    <a asp-page="/libros" class="btn btn-primary">Ver Libros</a>
+    <a asp-page="/Registro" class="btn btn-secondary">Registrarse</a>
+</p>
 
-<div class="container">
-    <img class="img" src="~/img/1211.jpg" alt="Mi Imagen 1" />
-    <img class="img" src="~/img/1718532259685.jpg" alt="Mi Imagen 2" />
-</div>
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["Mensaje"]
+    </div>
+}

@@ -1,11 +1,24 @@
-@page
-@model RazorPages.Pages.LibroDetalle
+
+@page "{id:int}"
+@model RazorPages.Pages.librodetalleModel
 @{
-    ViewData["Title"] = "Librodetalle";
+    ViewData["Title"] = "Detalle del Libro";
 }
 
-<h1>@ViewData["Title"]</h1>
-
-<div>
-    
-</div>
+@if (Model.Libro != null)
+{
+    <div class="card">
+        <div class="card-body">
+            <h3 class="card-title">@Model.Libro.Titulo</h3>
+            <h5 class="card-subtitle mb-2 text-muted">Autor: @Model.Libro.Autor (@Model.Libro.Anio)</h5>
+            <p class="card-text">@Model.Libro.Descripcion</p>
+            <p><strong>Precio:</strong> $@Model.Libro.Precio</p>
+            <button class="btn btn-success">Comprar</button>
+            <a asp-page="/libros" class="btn btn-secondary">Volver</a>
+        </div>
+    </div>
+}
+else
+{
+    <p>Libro no encontrado.</p>
+}

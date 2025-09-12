@@ -310,6 +310,3 @@ C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.MvcApplicati
 C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.RazorAssemblyInfo.cache
 C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.RazorAssemblyInfo.cs
 C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.sourcelink.json
-C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.dll
-C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\refint\RazorPages.dll
-C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.pdb

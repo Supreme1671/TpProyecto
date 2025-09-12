@@ -6,7 +6,6 @@ namespace RazorPages.Pages
     {
         public void OnGet()
         {
-           
         }
     }
 }
