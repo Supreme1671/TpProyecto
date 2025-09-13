@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using RazorPages.Models;
 using System.Collections.Generic;
 using System.Linq;
-using RazorPages.Models;
 namespace RazorPages.Pages
 {
     public class librodetalleModel : PageModel
@@ -23,7 +22,7 @@ namespace RazorPages.Pages
 
             if (Libro == null)
             {
-                return RedirectToPage("/libros");
+                return RedirectToPage("/Index");
             }
 
             return Page();

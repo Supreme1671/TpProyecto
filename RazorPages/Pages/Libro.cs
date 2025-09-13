@@ -1,7 +1,8 @@
 using RazorPages.Models;
+using RazorPages.Pages;
 namespace RazorPages.Models
 {
-    public class Libro
+    public class Libro : librosModel
     {
         public int Id { get; set; }
         public string Titulo { get; set; } = string.Empty;

@@ -6,11 +6,17 @@
 
 <h2>Bookflix</h2>
 
-<p>
-    <a asp-page="/libros" class="btn btn-primary">Ver Libros</a>
-    <a asp-page="/Registro" class="btn btn-secondary">Registrarse</a>
-</p>
+<div class="row">
+    @foreach (var libros in Model.Libros)
+    {
+        <div class="col-md-4 text-center">
+          <img src="https://via.placeholder.com/250x350.png?text=Test" alt="test" />
 
+            <h4>@libros.Titulo</h4>
+            <a asp-page="/librodetalle" asp-route-id="@libros.Id" class="btn btn-primary mt-2">Ver más</a>
+        </div>
+    }
+</div>
 @if (TempData["Mensaje"] != null)
 {
     <div class="alert alert-success">
