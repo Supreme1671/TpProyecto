@@ -9,18 +9,17 @@
 <div class="row">
     @foreach (var libros in Model.Libros)
     {
-        var iteracion = 0;
-
+        
         <div class="card"></div>
         <h3>@libros.Titulo</h3>
         <p>@libros.Autor</p>
          <a asp-page="/librodetalle" asp-route-id="@libros.Id" class="btn btn-primary mt-2">Ver más</a>
         <div class="Imagenes">
-            <img src="~/img/@libros.Imagen[iteracion++]" alt="@libros.Titulo">
+            <img src="~/img/@libros.Imagen" alt="@libros.Titulo" class="img-fluid">
         </div>
-        iteracion = iteracion + 1;
     }
 </div>
+
 
 @if (TempData["Mensaje"] != null)
 {
