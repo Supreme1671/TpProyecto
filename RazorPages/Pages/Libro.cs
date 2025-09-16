@@ -10,5 +10,6 @@ namespace RazorPages.Models
         public int Anio { get; set; }
         public string Descripcion { get; set; } = string.Empty;
         public decimal Precio { get; set; }
+
     }
 }

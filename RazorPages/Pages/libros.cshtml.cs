@@ -13,7 +13,7 @@ namespace RazorPages.Pages
         public string Descripcion { get; set; } = string.Empty;
         public decimal Precio { get; set; }
 
-        public string Imagen { get; set; } = string.Empty;
+        public List<string> Imagen { get; set; } = new List<string>() {"aaa.jpg", "diario.jpg", "elon.jpg"};
         public List<Libro> ListaLibros { get; set; } = new List<Libro>();
 
         public void OnGet()
