@@ -11,9 +11,13 @@ div{
   color: black;
 
 }
-.img{
-  height: 200px;
+.Imagenes img {
+  width: 230px;   
+  height: auto;   
+  display: block;
+  margin: 10px auto 0; 
 }
+
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }
@@ -83,15 +87,6 @@ h2 {
   padding: 10px;
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(255, 0, 0, 0.1);
-}
-
-.libro img {
-  width: 150px;     
-  height: 220px;     
-  object-fit: cover; 
-  border-radius: 5px;
-  display: block;
-  margin: auto;
 }
 .footer {
   margin-top: 50px;

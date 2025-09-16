@@ -9,11 +9,12 @@
 <div class="row">
     @foreach (var libros in Model.Libros)
     {
-        <div class="col-md-4 text-center">
-          <img src="https://via.placeholder.com/250x350.png?text=Test" alt="test" />
-
-            <h4>@libros.Titulo</h4>
-            <a asp-page="/librodetalle" asp-route-id="@libros.Id" class="btn btn-primary mt-2">Ver más</a>
+        <div class="card"></div>
+        <h3>@libros.Titulo</h3>
+        <p>@libros.Autor</p>
+         <a asp-page="/librodetalle" asp-route-id="@libros.Id" class="btn btn-primary mt-2">Ver más</a>
+        <div class="Imagenes">
+            <img src="~/img/@libros.Imagen" alt="@libros.Titulo">
         </div>
     }
 </div>
