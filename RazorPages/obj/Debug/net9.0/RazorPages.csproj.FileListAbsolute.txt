@@ -528,7 +528,6 @@ C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\scopedcss\projectbundle
 C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\compressed\r1aec1jl1e-h43tih68bc.gz
 C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\compressed\muq0h359jk-4lt0p0c9ne.gz
 C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\compressed\1kpsv3pz2e-dne14pj971.gz
-C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\compressed\8nx3d6ytb5-7jxgp2hoh7.gz
 C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\compressed\5arplyv19n-61n19gt1b8.gz
 C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\compressed\9imvbcgyvo-xtxxf3hu2r.gz
 C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\compressed\8wdmp82xnq-t1cqhe9u97.gz
@@ -601,3 +600,4 @@ C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\refint\RazorPages.dll
 C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.pdb
 C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.genruntimeconfig.cache
 C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\ref\RazorPages.dll
+C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\compressed\8nx3d6ytb5-72j7g285wt.gz
