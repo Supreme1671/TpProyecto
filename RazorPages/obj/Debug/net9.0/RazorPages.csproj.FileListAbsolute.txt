@@ -600,4 +600,4 @@ C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\refint\RazorPages.dll
 C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.pdb
 C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\RazorPages.genruntimeconfig.cache
 C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\ref\RazorPages.dll
-C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\compressed\8nx3d6ytb5-72j7g285wt.gz
+C:\Users\enzoc955\TpProyecto\RazorPages\obj\Debug\net9.0\compressed\8nx3d6ytb5-j6pu5opyfj.gz
