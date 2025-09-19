@@ -20,6 +20,8 @@ namespace RazorPages.Pages
                 new librosModel { Id = 8, Titulo = "La niña del sombrero azul" , Autor = "Ana Alcolea", Imagen = "som.jpg"},
                 new librosModel { Id = 9, Titulo = "EL HIJO DE NEPTUNO ( LOS HEROES DEL OLIMPO )" , Autor = "Rick Riordan", Imagen = "nepa.jpg"},
                 new librosModel { Id = 10, Titulo = "AMANECER EN LA COSECHA ( LIBRO 5 DE LOS JUEGOS DEL HAMBRE )" , Autor = "Suzanne Collins", Imagen = "juegos.jpg"},
+                new librosModel { Id = 11, Titulo = "Mares de Furia ", Autor = "Federico Andahazi", Imagen = "Mares.jpg"},
+                new librosModel { Id = 12, Titulo = "El crimen de año nuevo", Autor = "Daniel Balmaceda", Imagen = "hhhh.jpg"},
 
             };
         }

@@ -29,16 +29,12 @@
       "PackagePath": "staticwebassets/img/1211.jpg"
     },
     {
-      "Id": "/home/et12alumno/TpProyecto/RazorPages/wwwroot/img/1718532259685.jpg",
-      "PackagePath": "staticwebassets/img/1718532259685.jpg"
+      "Id": "/home/et12alumno/TpProyecto/RazorPages/wwwroot/img/Elarte.png",
+      "PackagePath": "staticwebassets/img/Elarte.png"
     },
     {
-      "Id": "/home/et12alumno/TpProyecto/RazorPages/wwwroot/img/9789502817606.jpg",
-      "PackagePath": "staticwebassets/img/9789502817606.jpg"
-    },
-    {
-      "Id": "/home/et12alumno/TpProyecto/RazorPages/wwwroot/img/9789878222776.png",
-      "PackagePath": "staticwebassets/img/9789878222776.png"
+      "Id": "/home/et12alumno/TpProyecto/RazorPages/wwwroot/img/Elintercambio.jpg",
+      "PackagePath": "staticwebassets/img/Elintercambio.jpg"
     },
     {
       "Id": "/home/et12alumno/TpProyecto/RazorPages/wwwroot/img/Favicon.png",
@@ -47,6 +43,10 @@
     {
       "Id": "/home/et12alumno/TpProyecto/RazorPages/wwwroot/img/Letra _B_ de libros rojos.png",
       "PackagePath": "staticwebassets/img/Letra _B_ de libros rojos.png"
+    },
+    {
+      "Id": "/home/et12alumno/TpProyecto/RazorPages/wwwroot/img/Mares.jpg",
+      "PackagePath": "staticwebassets/img/Mares.jpg"
     },
     {
       "Id": "/home/et12alumno/TpProyecto/RazorPages/wwwroot/img/aaa.jpg",
