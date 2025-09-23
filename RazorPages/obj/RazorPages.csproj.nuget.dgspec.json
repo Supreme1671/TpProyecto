@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\piuca\\TpProyecto-2\\RazorPages\\RazorPages.csproj": {}
   },
   "projects": {
@@ -15,11 +16,28 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\piuca\\AppData\\Roaming\\NuGet\\NuGet.Config"
+=======
+    "/home/et12alumno/TpProyecto/RazorPages/RazorPages.csproj": {}
+  },
+  "projects": {
+    "/home/et12alumno/TpProyecto/RazorPages/RazorPages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/et12alumno/TpProyecto/RazorPages/RazorPages.csproj",
+        "projectName": "RazorPages",
+        "projectPath": "/home/et12alumno/TpProyecto/RazorPages/RazorPages.csproj",
+        "packagesPath": "/home/et12alumno/.nuget/packages/",
+        "outputPath": "/home/et12alumno/TpProyecto/RazorPages/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/et12alumno/.nuget/NuGet/NuGet.Config"
+>>>>>>> 4b1fe9c78c213ef280378ba8111394a5476e30f0
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,7 +56,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -62,7 +80,11 @@
               "privateAssets": "all"
             }
           },
+<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+=======
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.110/PortableRuntimeIdentifierGraph.json"
+>>>>>>> 4b1fe9c78c213ef280378ba8111394a5476e30f0
         }
       }
     }

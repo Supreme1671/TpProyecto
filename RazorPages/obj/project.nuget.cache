@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "iaBJs5Hlx7M=",
   "success": true,
   "projectFilePath": "C:\\Users\\piuca\\TpProyecto-2\\RazorPages\\RazorPages.csproj",
+=======
+  "dgSpecHash": "GyTScQXEYCw=",
+  "success": true,
+  "projectFilePath": "/home/et12alumno/TpProyecto/RazorPages/RazorPages.csproj",
+>>>>>>> 4b1fe9c78c213ef280378ba8111394a5476e30f0
   "expectedPackageFiles": [],
   "logs": []
 }
