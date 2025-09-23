@@ -134,3 +134,5 @@ h5 {
     padding: 10px;
   
 }
+.footer { position: relative !important; }
+body { padding-bottom: 100px; }

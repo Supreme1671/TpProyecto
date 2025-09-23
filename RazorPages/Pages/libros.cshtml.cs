@@ -13,23 +13,29 @@ namespace RazorPages.Pages
         public string Descripcion { get; set; } = string.Empty;
         public decimal Precio { get; set; }
 
-        public string Imagen { get; set; }
+        public string Categoria { get; set; } = string.Empty;
+
+        public string? Imagen { get; set; }
         public List<Libro> ListaLibros { get; set; } = new List<Libro>();
         public void OnGet()
         {
             ListaLibros = new List<Libro>
             {
-                new Libro { Id = 1, Titulo = "Cien Años de Soledad", Autor = "Gabriel García Márquez", Anio = 1967, Descripcion = "Historia de la familia Buendía en el pueblo ficticio de Macondo.", Precio = 3500, Imagen="~/img/1211.jpg"},
+                new Libro { Id = 1, Titulo = "Cien Años de Soledad", Autor = "Gabriel García Márquez", Anio = 1967, Descripcion = "Historia de la familia Buendía en el pueblo ficticio de Macondo.", Precio = 3500, Imagen="~/img/1211.jpg" },
                 new Libro { Id = 2, Titulo = "Don Quijote de la Mancha", Autor = "Miguel de Cervantes", Anio = 1605, Descripcion = "Aventuras del ingenioso hidalgo Don Quijote y su escudero Sancho Panza.", Precio = 4200},
                 new Libro { Id = 3, Titulo = "El Principito", Autor = "Antoine de Saint-Exupéry", Anio = 1943, Descripcion = "Un cuento poético y filosófico sobre un pequeño príncipe que viaja por planetas.", Precio = 2800 },
                 new Libro { Id = 4, Titulo = "Amanecer en la cosecha(JUEGOS DEL HAMBRE 5)", Autor = "Suzanne Collins", Anio = 2025, Descripcion = "narra los orígenes de Haymitch en los Juegos del Hambre y su lucha por sobrevivir en un evento especial del Capitolio.", Precio = 12699 },
                 new Libro { Id = 5, Titulo = "Gravity Falls, Diario 3", Autor = "Alex Hirsch y Rob Renzetti", Anio = 2016, Descripcion = "Un diario lleno de secretos, dibujos y misterios sobre fenómenos paranormales y criaturas sobrenaturales en un pueblo extraño.", Precio = 24900 },
                 new Libro { Id = 6, Titulo = "El arte de ser nosotros", Autor = "Inma Rubiales", Anio = 2023, Descripcion = "Dos personas muy diferentes conectan a través de internet, enfrentando sus miedos y encontrando una inesperada amistad.", Precio = 12699 },
                 new Libro { Id = 7, Titulo = "El crimen de año nuevo", Autor = "Daniel Balmaceda", Anio = 2025, Descripcion = "narra los orígenes de Haymitch en los Juegos del Hambre y su lucha por sobrevivir en un evento especial del Capitolio.", Precio = 12699 },
-                new Libro { Id = 8, Titulo = "", Autor = "", Anio = 2025, Descripcion = "narra los orígenes de Haymitch en los Juegos del Hambre y su lucha por sobrevivir en un evento especial del Capitolio.", Precio = 12699 },
-                new Libro { Id = 9, Titulo = "", Autor = "", Anio = 2025, Descripcion = "narra los orígenes de Haymitch en los Juegos del Hambre y su lucha por sobrevivir en un evento especial del Capitolio.", Precio = 12699 },
-                new Libro { Id = 10, Titulo = "", Autor = "", Anio = 2025, Descripcion = "narra los orígenes de Haymitch en los Juegos del Hambre y su lucha por sobrevivir en un evento especial del Capitolio.", Precio = 12699 },
-                new Libro { Id = 11, Titulo = "", Autor = "", Anio = 2025, Descripcion = "narra los orígenes de Haymitch en los Juegos del Hambre y su lucha por sobrevivir en un evento especial del Capitolio.", Precio = 12699 },
+                new Libro { Id = 8, Titulo = "Elon Musk", Autor = "Walter Isaacson", Anio = 2025, Descripcion = "Biografía autorizada de Elon Musk, explorando su vida, logros y desafíos en la industria tecnológica y espacial.", Precio = 12699 },
+                new Libro { Id = 9, Titulo = "El veneno del poder", Autor = "Gabriela Cerruti", Anio = 2024, Descripcion = "Una novela de suspenso político que explora la corrupción y el poder en la sociedad contemporánea.", Precio = 12699 },
+                new Libro { Id = 10, Titulo = "La espada de Kuromori", Autor = "Jason Rohan", Anio = 2024, Descripcion = "Una aventura épica en un mundo de fantasía donde un joven héroe debe encontrar una espada legendaria para salvar su reino.", Precio = 12699 },
+                new Libro { Id = 11, Titulo = "Un reino de promesas malditas", Autor = "Lexi Ryan", Anio = 2024, Descripcion = "Una novela romántica y de fantasía que sigue a una joven que descubre secretos oscuros en un reino encantado.", Precio = 12699 },
+                new Libro { Id = 12, Titulo = "El laberinto en llamas (Las pruebas de apolo libro 3)", Autor = "Rick Riordan", Anio = 2016, Descripcion = "El dios Apolo, convertido en adolescente mortal, debe enfrentar desafíos en un laberinto lleno de peligros para recuperar su divinidad.", Precio = 12699 },
+                new Libro { Id = 13, Titulo = "Los gatos de fortuna", Autor = "Anny Duperey", Anio = 2024, Descripcion = "Una novela que explora la relación especial entre los humanos y los gatos, y cómo estos animales pueden traer suerte y felicidad.", Precio = 12699 },
+                new Libro { Id = 14, Titulo = "Bajo la misma estrella", Autor = "John Green", Anio = 2012, Descripcion = "Una emotiva historia de amor entre dos adolescentes que luchan contra el cáncer y encuentran esperanza en medio de la adversidad.", Precio = 12699 },
+                new Libro { Id = 15, Titulo = "Yo antes de ti", Autor = "Jojo Moyes", Anio = 2012, Descripcion = "Una conmovedora historia de amor entre una joven cuidadora y un hombre tetrapléjico, que desafía las expectativas y cambia sus vidas para siempre.", Precio = 12699 }
             };
         }
     }

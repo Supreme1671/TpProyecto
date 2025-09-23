@@ -9,103 +9,53 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = RazorPages
 build_property.RootNamespace = RazorPages
-<<<<<<< HEAD
-build_property.ProjectDir = C:\Users\piuca\TpProyecto-2\RazorPages\
-=======
-build_property.ProjectDir = /home/et12alumno/TpProyecto/RazorPages/
->>>>>>> 4b1fe9c78c213ef280378ba8111394a5476e30f0
+build_property.ProjectDir = C:\TpProyecto\RazorPages\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-<<<<<<< HEAD
-build_property.MSBuildProjectDirectory = C:\Users\piuca\TpProyecto-2\RazorPages
-=======
-build_property.MSBuildProjectDirectory = /home/et12alumno/TpProyecto/RazorPages
->>>>>>> 4b1fe9c78c213ef280378ba8111394a5476e30f0
+build_property.MSBuildProjectDirectory = C:\TpProyecto\RazorPages
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-<<<<<<< HEAD
-[C:/Users/piuca/TpProyecto-2/RazorPages/Pages/Error.cshtml]
+[C:/TpProyecto/RazorPages/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/piuca/TpProyecto-2/RazorPages/Pages/Index.cshtml]
+[C:/TpProyecto/RazorPages/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/piuca/TpProyecto-2/RazorPages/Pages/librodetalle.cshtml]
+[C:/TpProyecto/RazorPages/Pages/librodetalle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbGlicm9kZXRhbGxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/piuca/TpProyecto-2/RazorPages/Pages/libros.cshtml]
+[C:/TpProyecto/RazorPages/Pages/libros.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcbGlicm9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/piuca/TpProyecto-2/RazorPages/Pages/Privacy.cshtml]
+[C:/TpProyecto/RazorPages/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/piuca/TpProyecto-2/RazorPages/Pages/Registro.cshtml]
+[C:/TpProyecto/RazorPages/Pages/Registro.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVnaXN0cm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/piuca/TpProyecto-2/RazorPages/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/TpProyecto/RazorPages/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/piuca/TpProyecto-2/RazorPages/Pages/_ViewImports.cshtml]
+[C:/TpProyecto/RazorPages/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/piuca/TpProyecto-2/RazorPages/Pages/_ViewStart.cshtml]
+[C:/TpProyecto/RazorPages/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/piuca/TpProyecto-2/RazorPages/Pages/Shared/_Layout.cshtml]
+[C:/TpProyecto/RazorPages/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-fawojrboro
-=======
-[/home/et12alumno/TpProyecto/RazorPages/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/et12alumno/TpProyecto/RazorPages/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/et12alumno/TpProyecto/RazorPages/Pages/librodetalle.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvbGlicm9kZXRhbGxlLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/et12alumno/TpProyecto/RazorPages/Pages/libros.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvbGlicm9zLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/et12alumno/TpProyecto/RazorPages/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/et12alumno/TpProyecto/RazorPages/Pages/Registro.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVnaXN0cm8uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/et12alumno/TpProyecto/RazorPages/Pages/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/et12alumno/TpProyecto/RazorPages/Pages/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/et12alumno/TpProyecto/RazorPages/Pages/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[/home/et12alumno/TpProyecto/RazorPages/Pages/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-8fjxvvsmas
->>>>>>> 4b1fe9c78c213ef280378ba8111394a5476e30f0

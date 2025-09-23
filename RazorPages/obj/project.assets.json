@@ -8,40 +8,24 @@
     "net9.0": []
   },
   "packageFolders": {
-<<<<<<< HEAD
-    "C:\\Users\\piuca\\.nuget\\packages\\": {}
-=======
-    "/home/et12alumno/.nuget/packages/": {}
->>>>>>> 4b1fe9c78c213ef280378ba8111394a5476e30f0
+    "C:\\Users\\enzoc955\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\piuca\\TpProyecto-2\\RazorPages\\RazorPages.csproj",
+      "projectUniqueName": "C:\\TpProyecto\\RazorPages\\RazorPages.csproj",
       "projectName": "RazorPages",
-      "projectPath": "C:\\Users\\piuca\\TpProyecto-2\\RazorPages\\RazorPages.csproj",
-      "packagesPath": "C:\\Users\\piuca\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\piuca\\TpProyecto-2\\RazorPages\\obj\\",
+      "projectPath": "C:\\TpProyecto\\RazorPages\\RazorPages.csproj",
+      "packagesPath": "C:\\Users\\enzoc955\\.nuget\\packages\\",
+      "outputPath": "C:\\TpProyecto\\RazorPages\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\piuca\\AppData\\Roaming\\NuGet\\NuGet.Config"
-=======
-      "projectUniqueName": "/home/et12alumno/TpProyecto/RazorPages/RazorPages.csproj",
-      "projectName": "RazorPages",
-      "projectPath": "/home/et12alumno/TpProyecto/RazorPages/RazorPages.csproj",
-      "packagesPath": "/home/et12alumno/.nuget/packages/",
-      "outputPath": "/home/et12alumno/TpProyecto/RazorPages/obj/",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "/home/et12alumno/.nuget/NuGet/NuGet.Config"
->>>>>>> 4b1fe9c78c213ef280378ba8111394a5476e30f0
+        "C:\\Users\\enzoc955\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
-        "/usr/lib/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -60,7 +44,7 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.100"
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net9.0": {
@@ -84,12 +68,16 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
-=======
-        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/9.0.110/PortableRuntimeIdentifierGraph.json"
->>>>>>> 4b1fe9c78c213ef280378ba8111394a5476e30f0
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\TpProyecto\\RazorPages\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0."
+    }
+  ]
 }
