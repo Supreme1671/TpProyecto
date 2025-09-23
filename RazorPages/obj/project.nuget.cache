@@ -1,18 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SBDZW+kK11M=",
+  "dgSpecHash": "vDqRYRkSxik=",
   "success": true,
-  "projectFilePath": "C:\\TpProyecto\\RazorPages\\RazorPages.csproj",
+  "projectFilePath": "/mnt/Datos/TpProyecto/RazorPages/RazorPages.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "message": "Problema al leer el archivo de caché C:\\TpProyecto\\RazorPages\\obj\\project.nuget.cache : '<' is an invalid start of a property name. Expected a '\"'. Path: $ | LineNumber: 2 | BytePositionInLine: 0.",
-      "projectPath": "C:\\TpProyecto\\RazorPages\\RazorPages.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\TpProyecto\\RazorPages\\RazorPages.csproj",
-      "targetGraphs": []
-    }
-  ]
+  "logs": []
 }

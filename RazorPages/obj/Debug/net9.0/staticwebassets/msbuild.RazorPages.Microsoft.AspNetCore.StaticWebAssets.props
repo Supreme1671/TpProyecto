@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>j6pu5opyfj</Fingerprint>
-      <Integrity>BZByafjxRg+isSFNW7M03tZfGVihowutU/goJir9tYw=</Integrity>
+      <Fingerprint>xhd4s4zm8j</Fingerprint>
+      <Integrity>VfkXautxGM4e0Urk8dEwXgpUsiD7NeluyqTuWl9Vwak=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -143,6 +143,42 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\aaaaa.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\almaGatoo.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RazorPages</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RazorPages</BasePath>
+      <RelativePath>img/almaGatoo.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>cwydiu6dhw</Fingerprint>
+      <Integrity>7Btbc5KSShYWi4rZTwImb+FoQLY7VClQMdyV8eFDHOw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\almaGatoo.png'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\antesDeTi.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RazorPages</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RazorPages</BasePath>
+      <RelativePath>img/antesDeTi.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>o450iv75os</Fingerprint>
+      <Integrity>CAhAYePgUDHn4mNoAqH+76fB/6gMOeZuJM4jLCgSQgk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\antesDeTi.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\diario.jpg'))">
       <SourceType>Package</SourceType>
@@ -252,6 +288,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Favicon.png'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\gatoFortuna.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RazorPages</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RazorPages</BasePath>
+      <RelativePath>img/gatoFortuna.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>eab0cb75wc</Fingerprint>
+      <Integrity>2n7GaimaWkzrO9b9DfPpReTkrr24HzxcO3vdjANJ7WU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\gatoFortuna.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\hhhh.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>RazorPages</SourceId>
@@ -336,11 +390,29 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>56jmdgt41w</Fingerprint>
-      <Integrity>jUfmNqe6+WV+ZXQTJQGmKNR9V6NrbDkeh6EG5HvcDJo=</Integrity>
+      <Fingerprint>2cd5648ywc</Fingerprint>
+      <Integrity>wiiVv1GKGLZW05BWsN+mwgU97bP0BHa3CP4bTZpzKEc=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\Mares.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\mismaEstrella.jpg'))">
+      <SourceType>Package</SourceType>
+      <SourceId>RazorPages</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/RazorPages</BasePath>
+      <RelativePath>img/mismaEstrella.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pej3i3njs4</Fingerprint>
+      <Integrity>/wwb0Y8sFM3A0L+ix3H0AQtWoi5xUw7bAjJxe0ZPFss=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\mismaEstrella.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\nepa.jpg'))">
       <SourceType>Package</SourceType>
@@ -354,8 +426,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>eg1jwpz3ha</Fingerprint>
-      <Integrity>4l3RQRDN4GedkPirHSwzXE0eMjh/xhDeTE4Uu1lqgig=</Integrity>
+      <Fingerprint>0nv406yo14</Fingerprint>
+      <Integrity>LHGq6LqkShsQT8/fIlIEZf8DHZd8JuEusz/uUhZAPwg=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\nepa.jpg'))</OriginalItemSpec>
@@ -408,8 +480,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>4o9uvvt62h</Fingerprint>
-      <Integrity>dDcq1YtbTWIf+LWP0ZLimkpAv4IDQHY5Egb0EcOSnKE=</Integrity>
+      <Fingerprint>nz11t9p61m</Fingerprint>
+      <Integrity>U9E+FFlluIYgNIayzmZwkvniBdPK2WO8PbExY9uRLYI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\som.jpg'))</OriginalItemSpec>
@@ -462,8 +534,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>1zzvv8kafw</Fingerprint>
-      <Integrity>I9kup5NKGE2/WW6ZIGq5FBy9IL4dWSbBTGeJskU8YD4=</Integrity>
+      <Fingerprint>y49vw8gcvc</Fingerprint>
+      <Integrity>/n9l/MtyKDast6dy5a1wZ3/Ns+jPGW+vPzPDAMkthTE=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\veneno.jpg'))</OriginalItemSpec>
@@ -480,8 +552,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>geoh3g5k86</Fingerprint>
-      <Integrity>yAgceoznkrh/qdAeuo46iT+9pFKFOwPMOXLIoM326lg=</Integrity>
+      <Fingerprint>2p20zger1y</Fingerprint>
+      <Integrity>pvAn40eNSKsnREqObVioq5HO1NW1YQ+cd3ip1/oI31Y=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\ñasss.jpg'))</OriginalItemSpec>
@@ -1584,23 +1656,23 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\RazorPages.41qpl64l1k.bundle.scp.css'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\RazorPages.idjq7h3pck.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>RazorPages</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/RazorPages</BasePath>
-      <RelativePath>RazorPages.41qpl64l1k.bundle.scp.css</RelativePath>
+      <RelativePath>RazorPages.idjq7h3pck.bundle.scp.css</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>Reference</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName>ScopedCss</AssetTraitName>
       <AssetTraitValue>ProjectBundle</AssetTraitValue>
-      <Fingerprint>41qpl64l1k</Fingerprint>
-      <Integrity>+CL7htiMPe6FLwO/3FHmHLyyt3cdEMvvtzd0NhQ4peA=</Integrity>
+      <Fingerprint>idjq7h3pck</Fingerprint>
+      <Integrity>amAHifRPudiAwE75SZb4xEZjIvPvdwGwHUGDEtVBIxI=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\RazorPages.41qpl64l1k.bundle.scp.css'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\RazorPages.idjq7h3pck.bundle.scp.css'))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>
