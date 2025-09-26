@@ -1,5 +1,7 @@
 html {
   font-size: 14px;
+  position: relative;
+  min-height: 100%;
 }
 
 @media (min-width: 768px) {
@@ -7,56 +9,48 @@ html {
     font-size: 16px;
   }
 }
-h3 {
-  color: white;
-}
-p {
-  color: white;
-}
-div{
-  color: black;
-
-}
-.Imagenes img {
-  width: 230px;   
-  height: auto;   
-  display: block;
-  margin: 10px auto 0; 
-}
-
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
-
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
-  margin-bottom: 60px;
-}
-
-.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
-  color: var(--bs-secondary-color);
-  text-align: end;
-}
-
-.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
-  text-align: start;
-}
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-
-body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   background-color: rgb(0, 0, 0);
 }
+main {
+  flex: 1 0 auto;
+}
 
-h1{
+h1, h2, h3, p {
   color: white;
 }
+
+h5 {
+  margin: 20px;
+  color: black;
+}
+div {
+  color: black;
+}
+
+.Imagenes img {
+  width: 230px;
+  height: auto;
+  display: block;
+  margin: 10px auto 0;
+}
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 
 nav {
   background-color: red;
@@ -71,15 +65,6 @@ nav a {
   color: white;
   margin-left: 15px;
   text-decoration: none;
-}
-
-h2 {
-  margin: 20px;
-  color: white;
-}
-h5 {
-  margin: 20px;
-  color: black;
 }
 
 .libros {
@@ -99,13 +84,12 @@ h5 {
   box-shadow: 0 0 5px rgba(255, 0, 0, 0.1);
 }
 .footer {
-  margin-top: 50px;
   text-align: center;
   padding: 20px;
   background-color: red;
   color: white;
+  margin-top: 0;
 }
-
 .btn-ver-mas {
   display: inline-block;
   background-color: red;
@@ -120,19 +104,18 @@ h5 {
 .btn-ver-mas:hover {
   background-color: darkred;
 }
+
 .img-fluid {
   max-width: 100%;
-  height: 10%;
-  width: 20%;
+  height: auto;
+  width: 230px;
 }
 .card-body {
   background-color: black;
   color: white;
-      flex-direction: column;
-    align-items: center;
-    margin: 20px;   
-    padding: 10px;
-  
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
 }
-.footer { position: relative !important; }
-body { padding-bottom: 100px; }
+

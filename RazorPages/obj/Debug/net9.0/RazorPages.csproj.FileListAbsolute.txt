@@ -698,6 +698,6 @@ C:/TpProyecto/RazorPages/obj/Debug/net9.0/RazorPages.pdb
 C:/TpProyecto/RazorPages/obj/Debug/net9.0/RazorPages.genruntimeconfig.cache
 C:/TpProyecto/RazorPages/obj/Debug/net9.0/ref/RazorPages.dll
 C:/TpProyecto/RazorPages/obj/Debug/net9.0/compressed/8nx3d6ytb5-xhd4s4zm8j.gz
-/mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/compressed/8nx3d6ytb5-xhd4s4zm8j.gz
 /mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/compressed/slt7q5lton-idjq7h3pck.gz
 /mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/compressed/9czkzozsrx-idjq7h3pck.gz
+/mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/compressed/8nx3d6ytb5-7uysriopvu.gz

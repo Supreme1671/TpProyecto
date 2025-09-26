@@ -26,15 +26,16 @@
 <div class="row">
     @foreach (var libros in Model.Libros)
     {
-         <div class="card-body d-flex flex-column"  style="width: 200px;">
-        <div class="card"></div>
-        <h3>@libros.Titulo</h3>
-        <p>@libros.Autor</p>
+        <div class="card-body d-flex flex-column"  style="width: 200px;">
         <div class="Imagenes">
             <img src="~/img/@libros.Imagen" alt="@libros.Titulo" class="img-fluid">
         </div>
+        <div class="card"></div>
+        <h3>@libros.Titulo</h3>
+        <p>@libros.Autor</p>
+        <p>$@libros.Precio</p>
           <a asp-page="/librodetalle" asp-route-id="@libros.Id" class="btn btn-primary mt-2">Ver más</a>
-          </div>
+        </div>
     }
 </div>
 
