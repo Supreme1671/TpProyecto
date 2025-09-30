@@ -35,6 +35,14 @@ namespace RazorPages.Pages
                 new Libro { Id = 18, Titulo = "Alma de gato", Autor = "Ruth Berger", Precio = 17299,Imagen = "almaGatoo.png", Categoria = "Autoayuda"},
                 new Libro { Id = 19, Titulo = "Bajo la misma estrella", Autor = "John Green", Precio = 22499, Imagen = "mismaEstrella.jpg", Categoria = "Novela" },
                 new Libro { Id = 20, Titulo = "Yo antes de ti", Autor = "Jojo Moyes", Precio = 26699,Imagen = "antesDeTi.jpg", Categoria = "Novela"},
+                new Libro { Id = 21, Titulo = "ALGUN TIEMPO ATRAS : LA VIDA DE GUSTAVO CERATI", Autor = "MARCHI, SERGIO", Precio = 40999,Imagen = "librogus.jpg", Categoria = "Biografia"},
+                new Libro { Id = 22, Titulo = "EL LIBRO DE BILL", Autor = "HIRSCH, ALEX", Precio = 50900, Imagen = "librobill.jpg", Categoria = "Ficcion Paranormal"},
+                new Libro { Id = 23, Titulo = "La Niebla", Autor = "Stephen King", Precio = 23939,  Imagen = "libroniebla.jpeg", Categoria = "Novela"},
+                new Libro { Id = 24, Titulo = "EL HOBBIT Y LA FILOSOFIA", Autor = "BASSHAM, GREGORY", Precio = 21500,  Imagen = "librohobbit.jpg", Categoria = "Fantasia"},
+                new Libro { Id = 25, Titulo= "It (Eso)", Autor = "Stephen King", Precio = 59699,Imagen ="libroit.jpg", Categoria = "Ficcion Paranormal"},
+                new Libro { Id = 26, Titulo= "PERONISMO HOY", Autor = "MORENO, GUILLERMO", Precio = 34900, Imagen = "libroperonismo.jpg", Categoria = "Ficcion Politica"},
+                new Libro { Id = 27, Titulo = " LOS CABALLEROS DE LA NOCHE", Autor = "BALMACEDA, DANIEL", Precio = 34999,  Imagen = "librocaballeros.jpg", Categoria = "Policial"},
+                new Libro { Id = 28, Titulo = "El Diario De Ana Frank", Autor = "Frank, Ana", Precio = 21300,Imagen = "librodiarioana.jpg", Categoria = "Biografia"},
             };
             
              Categorias = all.Select(l => l.Categoria)

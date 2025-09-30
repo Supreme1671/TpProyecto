@@ -3103,6 +3103,662 @@
       ]
     },
     {
+      "Route": "img/librobill.aro9bfwvud.jpg",
+      "AssetFile": "img/librobill.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"atPxQGkR1hzQ9rQgsUIjzpFXq8LcIPblVASnVYKB+OQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:54:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aro9bfwvud"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-atPxQGkR1hzQ9rQgsUIjzpFXq8LcIPblVASnVYKB+OQ="
+        },
+        {
+          "Name": "label",
+          "Value": "img/librobill.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/librobill.jpg",
+      "AssetFile": "img/librobill.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"atPxQGkR1hzQ9rQgsUIjzpFXq8LcIPblVASnVYKB+OQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:54:58 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-atPxQGkR1hzQ9rQgsUIjzpFXq8LcIPblVASnVYKB+OQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/librocaballeros.45tq1x6v9q.jpg",
+      "AssetFile": "img/librocaballeros.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+AQvHRMhLxzZY3eD+AwACt3dxzXR7YMWI7fm6xyBGE4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "45tq1x6v9q"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+AQvHRMhLxzZY3eD+AwACt3dxzXR7YMWI7fm6xyBGE4="
+        },
+        {
+          "Name": "label",
+          "Value": "img/librocaballeros.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/librocaballeros.jpg",
+      "AssetFile": "img/librocaballeros.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+AQvHRMhLxzZY3eD+AwACt3dxzXR7YMWI7fm6xyBGE4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:11 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+AQvHRMhLxzZY3eD+AwACt3dxzXR7YMWI7fm6xyBGE4="
+        }
+      ]
+    },
+    {
+      "Route": "img/librodiarioana.2m1lrzr6uz.jpg",
+      "AssetFile": "img/librodiarioana.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"apJ9hfzsP5Npp3pQOypus+09H5rstUKLclpv76WKbPU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2m1lrzr6uz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-apJ9hfzsP5Npp3pQOypus+09H5rstUKLclpv76WKbPU="
+        },
+        {
+          "Name": "label",
+          "Value": "img/librodiarioana.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/librodiarioana.jpg",
+      "AssetFile": "img/librodiarioana.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"apJ9hfzsP5Npp3pQOypus+09H5rstUKLclpv76WKbPU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-apJ9hfzsP5Npp3pQOypus+09H5rstUKLclpv76WKbPU="
+        }
+      ]
+    },
+    {
+      "Route": "img/librogus.2t08ghht4z.jpg",
+      "AssetFile": "img/librogus.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FvqBwZ/x16B2C0wzpcRzNCryGN5FiU0bXzbU773fHEg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2t08ghht4z"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FvqBwZ/x16B2C0wzpcRzNCryGN5FiU0bXzbU773fHEg="
+        },
+        {
+          "Name": "label",
+          "Value": "img/librogus.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/librogus.jpg",
+      "AssetFile": "img/librogus.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FvqBwZ/x16B2C0wzpcRzNCryGN5FiU0bXzbU773fHEg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FvqBwZ/x16B2C0wzpcRzNCryGN5FiU0bXzbU773fHEg="
+        }
+      ]
+    },
+    {
+      "Route": "img/librohobbit.2s7mtd28lu.jpg",
+      "AssetFile": "img/librohobbit.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53088"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hn6xE9AW9eXXI+SrwPgb5YKV7GfGW6Yh3Mzh/6Oxk7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2s7mtd28lu"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hn6xE9AW9eXXI+SrwPgb5YKV7GfGW6Yh3Mzh/6Oxk7U="
+        },
+        {
+          "Name": "label",
+          "Value": "img/librohobbit.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/librohobbit.jpg",
+      "AssetFile": "img/librohobbit.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53088"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hn6xE9AW9eXXI+SrwPgb5YKV7GfGW6Yh3Mzh/6Oxk7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hn6xE9AW9eXXI+SrwPgb5YKV7GfGW6Yh3Mzh/6Oxk7U="
+        }
+      ]
+    },
+    {
+      "Route": "img/libroit.52iu3pabgh.jpg",
+      "AssetFile": "img/libroit.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7f3TTwEKYm0wuKMXduZjiTcSlCNiN4IHgDl36oftbhQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:56:03 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "52iu3pabgh"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7f3TTwEKYm0wuKMXduZjiTcSlCNiN4IHgDl36oftbhQ="
+        },
+        {
+          "Name": "label",
+          "Value": "img/libroit.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/libroit.jpg",
+      "AssetFile": "img/libroit.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7f3TTwEKYm0wuKMXduZjiTcSlCNiN4IHgDl36oftbhQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:56:03 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7f3TTwEKYm0wuKMXduZjiTcSlCNiN4IHgDl36oftbhQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/libroniebla.5xevh8wj2r.jpeg",
+      "AssetFile": "img/libroniebla.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Se6dQe9tlAw4D1Y7IBR1YpOZShH1MwqJ0aVAp4ZX8EE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:54:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5xevh8wj2r"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Se6dQe9tlAw4D1Y7IBR1YpOZShH1MwqJ0aVAp4ZX8EE="
+        },
+        {
+          "Name": "label",
+          "Value": "img/libroniebla.jpeg"
+        }
+      ]
+    },
+    {
+      "Route": "img/libroniebla.jpeg",
+      "AssetFile": "img/libroniebla.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Se6dQe9tlAw4D1Y7IBR1YpOZShH1MwqJ0aVAp4ZX8EE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:54:56 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Se6dQe9tlAw4D1Y7IBR1YpOZShH1MwqJ0aVAp4ZX8EE="
+        }
+      ]
+    },
+    {
+      "Route": "img/libroperonismo.3fbg1nccuy.jpg",
+      "AssetFile": "img/libroperonismo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MUXwm2PaQmmqxIlEKgCfIBCSBuwNba5Y3pRgRCZtvbQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3fbg1nccuy"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MUXwm2PaQmmqxIlEKgCfIBCSBuwNba5Y3pRgRCZtvbQ="
+        },
+        {
+          "Name": "label",
+          "Value": "img/libroperonismo.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "img/libroperonismo.jpg",
+      "AssetFile": "img/libroperonismo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MUXwm2PaQmmqxIlEKgCfIBCSBuwNba5Y3pRgRCZtvbQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:09 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MUXwm2PaQmmqxIlEKgCfIBCSBuwNba5Y3pRgRCZtvbQ="
+        }
+      ]
+    },
+    {
       "Route": "img/mald.jpg",
       "AssetFile": "img/mald.jpg",
       "Selectors": [],

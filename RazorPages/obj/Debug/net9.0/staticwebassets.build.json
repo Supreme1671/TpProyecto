@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NXJyM8/Uozy/nLA0Q8SARPri94BjHBrAqouE+giuk+I=",
+  "Hash": "Cj/MiLMzTU780/2uBFVAhKVgzyf6IPdnSnnp31NJoGA=",
   "Source": "RazorPages",
   "BasePath": "_content/RazorPages",
   "Mode": "Default",
@@ -1884,6 +1884,174 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/Letra _B_ de libros rojos.png"
+    },
+    {
+      "Identity": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librobill.jpg",
+      "SourceId": "RazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/",
+      "BasePath": "_content/RazorPages",
+      "RelativePath": "img/librobill#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "aro9bfwvud",
+      "Integrity": "atPxQGkR1hzQ9rQgsUIjzpFXq8LcIPblVASnVYKB+OQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/librobill.jpg"
+    },
+    {
+      "Identity": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librocaballeros.jpg",
+      "SourceId": "RazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/",
+      "BasePath": "_content/RazorPages",
+      "RelativePath": "img/librocaballeros#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "45tq1x6v9q",
+      "Integrity": "+AQvHRMhLxzZY3eD+AwACt3dxzXR7YMWI7fm6xyBGE4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/librocaballeros.jpg"
+    },
+    {
+      "Identity": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librodiarioana.jpg",
+      "SourceId": "RazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/",
+      "BasePath": "_content/RazorPages",
+      "RelativePath": "img/librodiarioana#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2m1lrzr6uz",
+      "Integrity": "apJ9hfzsP5Npp3pQOypus+09H5rstUKLclpv76WKbPU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/librodiarioana.jpg"
+    },
+    {
+      "Identity": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librogus.jpg",
+      "SourceId": "RazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/",
+      "BasePath": "_content/RazorPages",
+      "RelativePath": "img/librogus#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2t08ghht4z",
+      "Integrity": "FvqBwZ/x16B2C0wzpcRzNCryGN5FiU0bXzbU773fHEg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/librogus.jpg"
+    },
+    {
+      "Identity": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librohobbit.jpg",
+      "SourceId": "RazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/",
+      "BasePath": "_content/RazorPages",
+      "RelativePath": "img/librohobbit#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2s7mtd28lu",
+      "Integrity": "Hn6xE9AW9eXXI+SrwPgb5YKV7GfGW6Yh3Mzh/6Oxk7U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/librohobbit.jpg"
+    },
+    {
+      "Identity": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/libroit.jpg",
+      "SourceId": "RazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/",
+      "BasePath": "_content/RazorPages",
+      "RelativePath": "img/libroit#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "52iu3pabgh",
+      "Integrity": "7f3TTwEKYm0wuKMXduZjiTcSlCNiN4IHgDl36oftbhQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/libroit.jpg"
+    },
+    {
+      "Identity": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/libroniebla.jpeg",
+      "SourceId": "RazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/",
+      "BasePath": "_content/RazorPages",
+      "RelativePath": "img/libroniebla#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5xevh8wj2r",
+      "Integrity": "Se6dQe9tlAw4D1Y7IBR1YpOZShH1MwqJ0aVAp4ZX8EE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/libroniebla.jpeg"
+    },
+    {
+      "Identity": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/libroperonismo.jpg",
+      "SourceId": "RazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/",
+      "BasePath": "_content/RazorPages",
+      "RelativePath": "img/libroperonismo#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3fbg1nccuy",
+      "Integrity": "MUXwm2PaQmmqxIlEKgCfIBCSBuwNba5Y3pRgRCZtvbQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/img/libroperonismo.jpg"
     },
     {
       "Identity": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/mald.jpg",
@@ -6116,6 +6284,662 @@
         {
           "Name": "integrity",
           "Value": "sha256-nXhV6TtlQnBtNKyu2Q9t2nW+Gf+wr04mIF5Ylo6N8M0="
+        }
+      ]
+    },
+    {
+      "Route": "img/librobill.aro9bfwvud.jpg",
+      "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librobill.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"atPxQGkR1hzQ9rQgsUIjzpFXq8LcIPblVASnVYKB+OQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:54:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "aro9bfwvud"
+        },
+        {
+          "Name": "label",
+          "Value": "img/librobill.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-atPxQGkR1hzQ9rQgsUIjzpFXq8LcIPblVASnVYKB+OQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/librobill.jpg",
+      "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librobill.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "86215"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"atPxQGkR1hzQ9rQgsUIjzpFXq8LcIPblVASnVYKB+OQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:54:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-atPxQGkR1hzQ9rQgsUIjzpFXq8LcIPblVASnVYKB+OQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/librocaballeros.45tq1x6v9q.jpg",
+      "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librocaballeros.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+AQvHRMhLxzZY3eD+AwACt3dxzXR7YMWI7fm6xyBGE4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "45tq1x6v9q"
+        },
+        {
+          "Name": "label",
+          "Value": "img/librocaballeros.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+AQvHRMhLxzZY3eD+AwACt3dxzXR7YMWI7fm6xyBGE4="
+        }
+      ]
+    },
+    {
+      "Route": "img/librocaballeros.jpg",
+      "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librocaballeros.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55477"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+AQvHRMhLxzZY3eD+AwACt3dxzXR7YMWI7fm6xyBGE4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+AQvHRMhLxzZY3eD+AwACt3dxzXR7YMWI7fm6xyBGE4="
+        }
+      ]
+    },
+    {
+      "Route": "img/librodiarioana.2m1lrzr6uz.jpg",
+      "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librodiarioana.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"apJ9hfzsP5Npp3pQOypus+09H5rstUKLclpv76WKbPU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2m1lrzr6uz"
+        },
+        {
+          "Name": "label",
+          "Value": "img/librodiarioana.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-apJ9hfzsP5Npp3pQOypus+09H5rstUKLclpv76WKbPU="
+        }
+      ]
+    },
+    {
+      "Route": "img/librodiarioana.jpg",
+      "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librodiarioana.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"apJ9hfzsP5Npp3pQOypus+09H5rstUKLclpv76WKbPU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:12 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-apJ9hfzsP5Npp3pQOypus+09H5rstUKLclpv76WKbPU="
+        }
+      ]
+    },
+    {
+      "Route": "img/librogus.2t08ghht4z.jpg",
+      "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librogus.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FvqBwZ/x16B2C0wzpcRzNCryGN5FiU0bXzbU773fHEg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2t08ghht4z"
+        },
+        {
+          "Name": "label",
+          "Value": "img/librogus.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FvqBwZ/x16B2C0wzpcRzNCryGN5FiU0bXzbU773fHEg="
+        }
+      ]
+    },
+    {
+      "Route": "img/librogus.jpg",
+      "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librogus.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "37729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FvqBwZ/x16B2C0wzpcRzNCryGN5FiU0bXzbU773fHEg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FvqBwZ/x16B2C0wzpcRzNCryGN5FiU0bXzbU773fHEg="
+        }
+      ]
+    },
+    {
+      "Route": "img/librohobbit.2s7mtd28lu.jpg",
+      "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librohobbit.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53088"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hn6xE9AW9eXXI+SrwPgb5YKV7GfGW6Yh3Mzh/6Oxk7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2s7mtd28lu"
+        },
+        {
+          "Name": "label",
+          "Value": "img/librohobbit.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hn6xE9AW9eXXI+SrwPgb5YKV7GfGW6Yh3Mzh/6Oxk7U="
+        }
+      ]
+    },
+    {
+      "Route": "img/librohobbit.jpg",
+      "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librohobbit.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "53088"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Hn6xE9AW9eXXI+SrwPgb5YKV7GfGW6Yh3Mzh/6Oxk7U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Hn6xE9AW9eXXI+SrwPgb5YKV7GfGW6Yh3Mzh/6Oxk7U="
+        }
+      ]
+    },
+    {
+      "Route": "img/libroit.52iu3pabgh.jpg",
+      "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/libroit.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7f3TTwEKYm0wuKMXduZjiTcSlCNiN4IHgDl36oftbhQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:56:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "52iu3pabgh"
+        },
+        {
+          "Name": "label",
+          "Value": "img/libroit.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7f3TTwEKYm0wuKMXduZjiTcSlCNiN4IHgDl36oftbhQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/libroit.jpg",
+      "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/libroit.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "17612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7f3TTwEKYm0wuKMXduZjiTcSlCNiN4IHgDl36oftbhQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:56:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-7f3TTwEKYm0wuKMXduZjiTcSlCNiN4IHgDl36oftbhQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/libroniebla.5xevh8wj2r.jpeg",
+      "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/libroniebla.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Se6dQe9tlAw4D1Y7IBR1YpOZShH1MwqJ0aVAp4ZX8EE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:54:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5xevh8wj2r"
+        },
+        {
+          "Name": "label",
+          "Value": "img/libroniebla.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Se6dQe9tlAw4D1Y7IBR1YpOZShH1MwqJ0aVAp4ZX8EE="
+        }
+      ]
+    },
+    {
+      "Route": "img/libroniebla.jpeg",
+      "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/libroniebla.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "34735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Se6dQe9tlAw4D1Y7IBR1YpOZShH1MwqJ0aVAp4ZX8EE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:54:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Se6dQe9tlAw4D1Y7IBR1YpOZShH1MwqJ0aVAp4ZX8EE="
+        }
+      ]
+    },
+    {
+      "Route": "img/libroperonismo.3fbg1nccuy.jpg",
+      "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/libroperonismo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MUXwm2PaQmmqxIlEKgCfIBCSBuwNba5Y3pRgRCZtvbQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3fbg1nccuy"
+        },
+        {
+          "Name": "label",
+          "Value": "img/libroperonismo.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MUXwm2PaQmmqxIlEKgCfIBCSBuwNba5Y3pRgRCZtvbQ="
+        }
+      ]
+    },
+    {
+      "Route": "img/libroperonismo.jpg",
+      "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/libroperonismo.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "38268"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MUXwm2PaQmmqxIlEKgCfIBCSBuwNba5Y3pRgRCZtvbQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 30 Sep 2025 19:55:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MUXwm2PaQmmqxIlEKgCfIBCSBuwNba5Y3pRgRCZtvbQ="
         }
       ]
     },

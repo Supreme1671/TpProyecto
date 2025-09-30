@@ -89,6 +89,38 @@
       "PackagePath": "staticwebassets/img/juegos.jpg"
     },
     {
+      "Id": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librobill.jpg",
+      "PackagePath": "staticwebassets/img/librobill.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librocaballeros.jpg",
+      "PackagePath": "staticwebassets/img/librocaballeros.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librodiarioana.jpg",
+      "PackagePath": "staticwebassets/img/librodiarioana.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librogus.jpg",
+      "PackagePath": "staticwebassets/img/librogus.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/librohobbit.jpg",
+      "PackagePath": "staticwebassets/img/librohobbit.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/libroit.jpg",
+      "PackagePath": "staticwebassets/img/libroit.jpg"
+    },
+    {
+      "Id": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/libroniebla.jpeg",
+      "PackagePath": "staticwebassets/img/libroniebla.jpeg"
+    },
+    {
+      "Id": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/libroperonismo.jpg",
+      "PackagePath": "staticwebassets/img/libroperonismo.jpg"
+    },
+    {
       "Id": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/img/mald.jpg",
       "PackagePath": "staticwebassets/img/mald.jpg"
     },
