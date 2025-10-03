@@ -7,6 +7,10 @@ namespace RazorPages.Pages
 {
     public class librodetalleModel : PageModel
     {
+        private readonly ILibroRepository _repo;
+public librodetalleModel(ILibroRepository repo) { _repo = repo; }
+
+
         public Libro? Libro { get; set; }
 
         public IActionResult OnGet(int id)
