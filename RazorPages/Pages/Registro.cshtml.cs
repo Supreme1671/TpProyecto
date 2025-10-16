@@ -1,13 +1,24 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using RazorPages.Models;
+using RazorPages.Services;
 
 namespace RazorPages.Pages
 {
-    public class RegistroModel : PageModel
+    public class registroModel : PageModel
     {
+        private readonly RegistroService _registroService;
+
         [BindProperty]
-        public Registro Registro { get; set; } = new Registro();
+        public Registro NuevoRegistro { get; set; } = new Registro();
+
+        public string MensajeError { get; set; } = "";
+        public string MensajeExito { get; set; } = "";
+
+        public registroModel(RegistroService registroService)
+        {
+            _registroService = registroService;
+        }
 
         public void OnGet()
         {
@@ -15,13 +26,23 @@ namespace RazorPages.Pages
 
         public IActionResult OnPost()
         {
-            if (!ModelState.IsValid)
+            if (_registroService.CorreoExiste(NuevoRegistro.Correo))
             {
+                MensajeError = "El email ya está registrado.";
                 return Page();
             }
 
-            // Acá podrías guardar los datos del registro
-            return RedirectToPage("/Index");
+            bool exito = _registroService.RegistrarUsuario(NuevoRegistro);
+            if (exito)
+            {
+                MensajeExito = "¡Registro exitoso!";
+                return RedirectToPage("/login");
+            }
+            else
+            {
+                MensajeError = "Error al registrar el usuario.";
+                return Page();
+            }
         }
     }
 }

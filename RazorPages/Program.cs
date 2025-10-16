@@ -1,9 +1,14 @@
-
+using MySql.Data.MySqlClient;
+using System.Data;
+using RazorPages.Services;
+using RazorPages.Models;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddSingleton<ILibroRepository, InMemoryLibroRepository>();
+builder.Services.AddScoped<RegistroService>();
+builder.Services.AddScoped<LibroService>();
 
 
 var app = builder.Build();

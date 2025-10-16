@@ -1,23 +1,30 @@
 @page
-@model RazorPages.Pages.RegistroModel
+@model RazorPages.Pages.registroModel
 @{
-    ViewData["Title"] = "Registro de Usuario";
+    ViewData["Title"] = "Registro";
 }
 
-<h2>Registro</h2>
+<h2>Crear una cuenta</h2>
 
 <form method="post">
-    <div class="form-group">
-        <label asp-for="Registro.Correo" style="color: white;"></label>
-        <input asp-for="Registro.Correo" class="form-control" style="color: white;"/>
-        <span asp-validation-for="Registro.Correo" class="text-danger"></span>
+    <div>
+        <label>Nombre:</label>
+        <input asp-for="NuevoRegistro.Nombre" required />
     </div>
-
-    <div class="form-group">
-        <label asp-for="Registro.Contrasena" style="color: white;"></label>
-        <input asp-for="Registro.Contrasena" type="password" class="form-control" style="color: white;"/>
-        <span asp-validation-for="Registro.Contrasena" class="text-danger"></span>
+    <div>
+        <label>Apellido:</label>
+        <input asp-for="NuevoRegistro.Apellido" required />
     </div>
+    <div>
+        <label>Correo:</label>
+        <input asp-for="NuevoRegistro.Correo" type="correo" required />
+    </div>
+    <div>
+        <label>Contraseña:</label>
+        <input asp-for="NuevoRegistro.Contrasena" type="password" required />
+    </div>
+    <button type="submit">Registrarse</button>
 
-    <button type="submit" class="btn btn-primary">Registrarse</button>
+    <p style="color:red;">@Model.MensajeError</p>
+    <p style="color:green;">@Model.MensajeExito</p>
 </form>
