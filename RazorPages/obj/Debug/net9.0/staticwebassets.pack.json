@@ -2,7 +2,19 @@
   "Files": [
     {
       "Id": "/mnt/Datos/TpProyecto/RazorPages/obj/Debug/net9.0/scopedcss/projectbundle/RazorPages.bundle.scp.css",
-      "PackagePath": "staticwebassets/RazorPages.idjq7h3pck.bundle.scp.css"
+      "PackagePath": "staticwebassets/RazorPages.41qpl64l1k.bundle.scp.css"
+    },
+    {
+      "Id": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/Scripts/DER.sql",
+      "PackagePath": "staticwebassets/Scripts/DER.sql"
+    },
+    {
+      "Id": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/Scripts/INSERTS.sql",
+      "PackagePath": "staticwebassets/Scripts/INSERTS.sql"
+    },
+    {
+      "Id": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/Scripts/install.sql",
+      "PackagePath": "staticwebassets/Scripts/install.sql"
     },
     {
       "Id": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/css/Descripsion.css",
