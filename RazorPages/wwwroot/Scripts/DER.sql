@@ -5,7 +5,9 @@ USE bd_Bookflix;
 CREATE TABLE Registro (
     idRegistro INT AUTO_INCREMENT PRIMARY KEY,
     Correo VARCHAR(100) NOT NULL UNIQUE,
-    Contrasena VARCHAR(50) NOT NULL
+    Contrasena VARCHAR(50) NOT NULL,
+    Nombre VARCHAR(100) NOT NULL,
+    Apellido VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE Libro (

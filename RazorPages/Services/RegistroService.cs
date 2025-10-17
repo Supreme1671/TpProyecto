@@ -5,7 +5,7 @@ using RazorPages.Models;
 
 namespace RazorPages.Services
 {
-    public class RegistroService 
+    public class RegistroService
     {
         private readonly string _connectionString;
 

@@ -1,0 +1,21 @@
+@page
+@model RazorPages.Pages.LoginModel
+@{
+    ViewData["Title"] = "Iniciar Sesión";
+}
+
+<h2>Iniciar Sesión</h2>
+
+<form method="post">
+    <div>
+        <label>Correo:</label>
+        <input asp-for="Usuario.Correo" type="email" required />
+    </div>
+    <div>
+        <label>Contraseña:</label>
+        <input asp-for="Usuario.Contrasena" type="password" required />
+    </div>
+    <button type="submit">Entrar</button>
+
+    <p style="color:red;">@Model.MensajeError</p>
+</form>

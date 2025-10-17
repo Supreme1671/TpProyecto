@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "I09U84xB80vfUasy/fRsW+606yZnCbzWIFCqAC/d/6s=",
+  "Hash": "MrRjKC1WhybUQuv98uD4FYTPT7x01+gWGX8eoPrrspo=",
   "Source": "RazorPages",
   "BasePath": "_content/RazorPages",
   "Mode": "Default",
@@ -3580,8 +3580,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "y2moq87rsz",
-      "Integrity": "yi9Tv5MafGF96mY3zRb5OwJC273gdq3if+zC1JbfXH4=",
+      "Fingerprint": "2lin7wr0df",
+      "Integrity": "1lS41UDtkScEbhu0NUSwXM/qduixKB5ToTQEIT/zk+E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Scripts/DER.sql"
@@ -3601,8 +3601,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "6hq4f5bc3t",
-      "Integrity": "CrJgzKZ5C51ZEBilZRexILEe+PEvprIzepVJDNHr3g0=",
+      "Fingerprint": "drbfm9in2w",
+      "Integrity": "SWM3lzN6XPN14UhLlLJ0ymvIraQ3zOHTBgkge4GF5bE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Scripts/INSERTS.sql"
@@ -26467,6 +26467,51 @@
       ]
     },
     {
+      "Route": "Scripts/DER.2lin7wr0df.sql",
+      "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/Scripts/DER.sql",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"1lS41UDtkScEbhu0NUSwXM/qduixKB5ToTQEIT/zk+E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 17 Oct 2025 19:34:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2lin7wr0df"
+        },
+        {
+          "Name": "label",
+          "Value": "Scripts/DER.sql"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-1lS41UDtkScEbhu0NUSwXM/qduixKB5ToTQEIT/zk+E="
+        }
+      ]
+    },
+    {
       "Route": "Scripts/DER.sql",
       "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/Scripts/DER.sql",
       "Selectors": [],
@@ -26477,7 +26522,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "490"
+          "Value": "560"
         },
         {
           "Name": "Content-Type",
@@ -26485,11 +26530,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yi9Tv5MafGF96mY3zRb5OwJC273gdq3if+zC1JbfXH4=\""
+          "Value": "\"1lS41UDtkScEbhu0NUSwXM/qduixKB5ToTQEIT/zk+E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 14 Oct 2025 20:25:15 GMT"
+          "Value": "Fri, 17 Oct 2025 19:34:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26499,57 +26544,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yi9Tv5MafGF96mY3zRb5OwJC273gdq3if+zC1JbfXH4="
+          "Value": "sha256-1lS41UDtkScEbhu0NUSwXM/qduixKB5ToTQEIT/zk+E="
         }
       ]
     },
     {
-      "Route": "Scripts/DER.y2moq87rsz.sql",
-      "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/Scripts/DER.sql",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "490"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "application/octet-stream"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yi9Tv5MafGF96mY3zRb5OwJC273gdq3if+zC1JbfXH4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Tue, 14 Oct 2025 20:25:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "y2moq87rsz"
-        },
-        {
-          "Name": "label",
-          "Value": "Scripts/DER.sql"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yi9Tv5MafGF96mY3zRb5OwJC273gdq3if+zC1JbfXH4="
-        }
-      ]
-    },
-    {
-      "Route": "Scripts/INSERTS.6hq4f5bc3t.sql",
+      "Route": "Scripts/INSERTS.drbfm9in2w.sql",
       "AssetFile": "/mnt/Datos/TpProyecto/RazorPages/wwwroot/Scripts/INSERTS.sql",
       "Selectors": [],
       "ResponseHeaders": [
@@ -26559,7 +26559,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "723"
+          "Value": "750"
         },
         {
           "Name": "Content-Type",
@@ -26567,11 +26567,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CrJgzKZ5C51ZEBilZRexILEe+PEvprIzepVJDNHr3g0=\""
+          "Value": "\"SWM3lzN6XPN14UhLlLJ0ymvIraQ3zOHTBgkge4GF5bE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 14 Oct 2025 20:25:18 GMT"
+          "Value": "Fri, 17 Oct 2025 18:02:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26581,7 +26581,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "6hq4f5bc3t"
+          "Value": "drbfm9in2w"
         },
         {
           "Name": "label",
@@ -26589,7 +26589,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CrJgzKZ5C51ZEBilZRexILEe+PEvprIzepVJDNHr3g0="
+          "Value": "sha256-SWM3lzN6XPN14UhLlLJ0ymvIraQ3zOHTBgkge4GF5bE="
         }
       ]
     },
@@ -26604,7 +26604,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "723"
+          "Value": "750"
         },
         {
           "Name": "Content-Type",
@@ -26612,11 +26612,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CrJgzKZ5C51ZEBilZRexILEe+PEvprIzepVJDNHr3g0=\""
+          "Value": "\"SWM3lzN6XPN14UhLlLJ0ymvIraQ3zOHTBgkge4GF5bE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Tue, 14 Oct 2025 20:25:18 GMT"
+          "Value": "Fri, 17 Oct 2025 18:02:32 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -26626,7 +26626,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CrJgzKZ5C51ZEBilZRexILEe+PEvprIzepVJDNHr3g0="
+          "Value": "sha256-SWM3lzN6XPN14UhLlLJ0ymvIraQ3zOHTBgkge4GF5bE="
         }
       ]
     },

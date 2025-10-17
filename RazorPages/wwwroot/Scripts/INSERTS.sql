@@ -1,7 +1,7 @@
 USE bd_Bookflix;
 
-INSERT INTO Registro (Correo, Contrasena)
-VALUES ('admin@gmail.com', 'admin123'),
+INSERT INTO Registro (Correo, Contrasena, Nombre, Apellido)
+VALUES ('admin@gmail.com', 'admin123','a','bb'),
        ('usuario1@gmail.com', 'clave123'),
        ('usuario2@gmail.com', 'pass456');
 
