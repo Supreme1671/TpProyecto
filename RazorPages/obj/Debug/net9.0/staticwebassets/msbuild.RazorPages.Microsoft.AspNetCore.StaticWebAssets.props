@@ -48,8 +48,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gzv9biphng</Fingerprint>
-      <Integrity>1LIdfJW0BlLhy4So4cCuDc8xWiQF0zXSsxbYlxG6zsQ=</Integrity>
+      <Fingerprint>6r8gz9nbml</Fingerprint>
+      <Integrity>rnjCvougCwfylTaUqWe65Mxs8BytP6B2nWR0EOiMpbw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\registro.css'))</OriginalItemSpec>

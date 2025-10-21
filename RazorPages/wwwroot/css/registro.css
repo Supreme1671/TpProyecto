@@ -1,61 +1,85 @@
+/* registro.css - only CSS rules, remove Razor/HTML from .css file */
+
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: black;
+    background: linear-gradient(135deg, #6B73FF 0%, #000DFF 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .registro-container {
-  max-width: 400px;
-  margin: 50px auto;
-  padding: 30px;
-  background-color: white;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    width: 380px;
+    text-align: center;
+    animation: fadeIn 0.7s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
 }
 
 h2 {
-  margin: 20px;
-  color: black;
+    margin-bottom: 1.5rem;
+    color: #333;
 }
 
-.registro-container h2 {
-  text-align: center;
-  margin-bottom: 20px;
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
 }
 
-.registro-container input[type="email"],
-.registro-container input[type="password"] {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border-radius: 4px;
-  border: 1px solid red;
+input:focus {
+    border-color: #000DFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 13, 255, 0.4);
 }
 
-.registro-container label {
-  display: block;
-  margin-bottom: 5px;
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #000DFF;
+    color: white;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.3s;
 }
 
-.mostrar {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 15px;
+button:hover {
+    background: #4C4EFF;
+    transform: scale(1.03);
 }
 
-.registro-container button {
-  width: 100%;
-  padding: 10px;
-  background-color: #222;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+.google-btn {
+    background: #DB4437;
+    margin-top: 10px;
 }
 
-.registro-container button:hover {
-  background-color: #444;
+.google-btn:hover {
+    background: #C33D30;
+}
+
+.footer-text {
+    margin-top: 15px;
+    font-size: 0.9em;
+}
+
+a {
+    color: #000DFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
