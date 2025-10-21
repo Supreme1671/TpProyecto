@@ -7,7 +7,7 @@ public class Registro
     [EmailAddress(ErrorMessage = "Formato de correo inválido")]
     [RegularExpression(".+@gmail\\.com", ErrorMessage = "Debe ser un correo de Gmail")]
     public string Correo { get; set; }
-    public int Id { get; set; }
+    public int IdRegistro { get; set; }
     public string Nombre { get; set; } = string.Empty;
     public string Apellido { get; set; } = string.Empty;
     

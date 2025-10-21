@@ -48,5 +48,17 @@ namespace RazorPages.Services
                 }
             }
         }
+         public bool ValidarLogin(string correo, string contrasena)
+        {
+            using var connection = new MySqlConnection(_connectionString);
+                connection.Open();
+                string sql = "SELECT COUNT(*) FROM Registro WHERE Correo = @Correo AND Contrasena = @Contrasena";
+                using var cmd = new MySqlCommand(sql, connection);
+                cmd.Parameters.AddWithValue("@Correo", correo);
+                cmd.Parameters.AddWithValue("@Contrasena", contrasena);
+
+                    long count = (long)cmd.ExecuteScalar();
+                    return count > 0;
+        }
     }
 }

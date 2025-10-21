@@ -25,14 +25,19 @@ namespace RazorPages.Pages
 
         public IActionResult OnPost()
         {
-            bool existe = _registroService.CorreoExiste(Usuario.Correo);
-            if (!existe)
+            if (!_registroService.CorreoExiste(Usuario.Correo))
             {
                 MensajeError = "Correo no encontrado.";
                 return Page();
             }
 
-            // TODO: acá podrías validar contraseña real si lo implementás
+            bool valido = _registroService.ValidarLogin(Usuario.Correo, Usuario.Contrasena);
+            if (!valido)
+            {
+                MensajeError = "Contraseña incorrecta.";
+                return Page();
+            }
+
             return RedirectToPage("/Index");
         }
     }

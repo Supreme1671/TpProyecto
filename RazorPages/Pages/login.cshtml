@@ -1,21 +1,138 @@
 @page
 @model RazorPages.Pages.LoginModel
 @{
-    ViewData["Title"] = "Iniciar Sesión";
+    ViewData["Title"] = "Iniciar sesión";
 }
 
-<h2>Iniciar Sesión</h2>
+<style>
+    body {
+        background-color: #000;
+        font-family: 'Segoe UI', sans-serif;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
 
-<form method="post">
-    <div>
-        <label>Correo:</label>
-        <input asp-for="Usuario.Correo" type="email" required />
-    </div>
-    <div>
-        <label>Contraseña:</label>
-        <input asp-for="Usuario.Contrasena" type="password" required />
-    </div>
-    <button type="submit">Entrar</button>
+    .login-container {
+        background-color: #1c1c1c;
+        border-radius: 16px;
+        box-shadow: 0 10px 25px rgba(255, 255, 255, 0.1);
+        padding: 2.5rem;
+        width: 400px;
+        text-align: center;
+        color: white;
+    }
 
-    <p style="color:red;">@Model.MensajeError</p>
-</form>
+    h2 {
+        margin-bottom: 1.5rem;
+    }
+
+    form div {
+        margin-bottom: 1rem;
+        text-align: left;
+    }
+
+    label {
+        display: block;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid #555;
+        background-color: #2a2a2a;
+        color: white;
+        font-size: 1rem;
+        transition: 0.3s;
+    }
+
+    input:focus {
+        border-color: #00aaff;
+        outline: none;
+        box-shadow: 0 0 6px rgba(0, 170, 255, 0.6);
+    }
+
+    button {
+        width: 100%;
+        background: #00aaff;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: 0.3s;
+        margin-top: 10px;
+    }
+
+    button:hover {
+        background: #0088cc;
+        transform: scale(1.03);
+    }
+
+    .google-btn {
+        background: #DB4437;
+        margin-top: 10px;
+    }
+
+    .google-btn:hover {
+        background: #C33D30;
+    }
+
+    .messages {
+        margin-top: 1rem;
+        font-weight: 500;
+    }
+
+    .error {
+        color: #ff6b6b;
+    }
+
+    .footer-text {
+        margin-top: 1.2rem;
+        font-size: 0.9rem;
+    }
+
+    a {
+        color: #00aaff;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<div class="login-container">
+    <h2>Iniciar sesión</h2>
+
+    <form method="post">
+        <div>
+            <label>Correo:</label>
+            <input asp-for="Usuario.Correo" type="email" required />
+        </div>
+        <div>
+            <label>Contraseña:</label>
+            <input asp-for="Usuario.Contrasena" type="password" required />
+        </div>
+
+        <button type="submit">Ingresar</button>
+    </form>
+
+    <a href="/signin-google">
+        <button type="button" class="google-btn">Iniciar sesión con Google</button>
+    </a>
+
+    <div class="messages">
+        <p class="error">@Model.MensajeError</p>
+    </div>
+
+    <div class="footer-text">
+        ¿No tenés cuenta? <a href="/registro">Registrate acá</a>
+    </div>
+</div>
