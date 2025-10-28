@@ -1,9 +1,10 @@
 USE bd_Bookflix;
 
-INSERT INTO Registro (Correo, Contrasena, Nombre, Apellido)
-VALUES ('admin@gmail.com', 'admin123','a','bb'),
-       ('usuario1@gmail.com', 'clave123'),
-       ('usuario2@gmail.com', 'pass456');
+INSERT INTO IGNORE Registro (Correo, Contrasena, Nombre, Apellido)
+VALUES
+ ('admin2@gmail.com', 'admin123','a','bb'),
+       ('usuari1@gmail.com', 'clave123', '222', 'ss'),
+       ('usuarios2@gmail.com', 'pass456', 'cas', 'sss');
 
 INSERT INTO Libro (Titulo, Autor, Anio, Descripcion, Precio, Imagen, Categoria)
 VALUES 

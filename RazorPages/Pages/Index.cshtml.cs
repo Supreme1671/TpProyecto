@@ -1,3 +1,5 @@
+using System.Text.Json;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using RazorPages.Models;
 namespace RazorPages.Pages
@@ -44,12 +46,12 @@ namespace RazorPages.Pages
                 new Libro { Id = 27, Titulo = " LOS CABALLEROS DE LA NOCHE", Autor = "BALMACEDA, DANIEL", Precio = 34999,  Imagen = "librocaballeros.jpg", Categoria = "Policial"},
                 new Libro { Id = 28, Titulo = "El Diario De Ana Frank", Autor = "Frank, Ana", Precio = 21300,Imagen = "librodiarioana.jpg", Categoria = "Biografia"},
             };
-            
-             Categorias = all.Select(l => l.Categoria)
-                            .Where(c => !string.IsNullOrWhiteSpace(c))
-                            .Distinct()
-                            .OrderBy(c => c)
-                            .ToList();
+
+            Categorias = all.Select(l => l.Categoria)
+                           .Where(c => !string.IsNullOrWhiteSpace(c))
+                           .Distinct()
+                           .OrderBy(c => c)
+                           .ToList();
 
             // Filtro por búsqueda
             if (!string.IsNullOrWhiteSpace(Query))
@@ -68,6 +70,41 @@ namespace RazorPages.Pages
 
             Libros = all;
         }
+        
+        // Filtro Carrito
+        public IActionResult OnPostAgregarCarrito(int id)
+        {
+            var libro = Libros.FirstOrDefault(l => l.Id == id);
+            if (libro == null) return RedirectToPage();
+
+            var carrito = GetCarrito();
+
+                 var existente = carrito.FirstOrDefault(c => c.Id == id);
+            if (existente != null)
+                existente.Cantidad++;
+            else
+                carrito.Add(new CarritoItem
+                {
+                    Id = libro.Id,
+                    Titulo = libro.Titulo,
+                    Autor = libro.Autor,
+                    Descripcion = libro.Descripcion,
+                    Precio = libro.Precio,
+                    Imagen = libro.Imagen,
+                });
+
+            HttpContext.Session.SetString("carrito", JsonSerializer.Serialize(carrito));
+            
+            TempData["Mensaje"] = $"{libro.Titulo} agregado al carrito.";
+            return RedirectToPage();
+            }
+
+        private List<CarritoItem> GetCarrito()
+        {
+            var data = HttpContext.Session.GetString("carrito");
+            return data != null ? JsonSerializer.Deserialize<List<CarritoItem>>(data) ?? new() : new();
+            }
+        }
+        
     }
     
-}

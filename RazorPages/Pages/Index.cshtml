@@ -46,3 +46,15 @@
         @TempData["Mensaje"]
     </div>
 }
+
+@foreach (var libros in Model.Libros)
+{
+    <div>
+        <h3>@libros.Titulo</h3>
+        <a asp-page="/librodetalle" asp-route-id="@libros.Id">Ver más</a>
+        <form method="post" asp-page-handler="AgregarCarrito" asp-route-id="@libros.Id">
+            <button type="submit" class="btn btn-success mt-2"> Agregar al carrito</button>
+        </form>
+    </div>
+}
+

@@ -15,8 +15,7 @@ builder.Services.AddScoped<LibroService>();
 
 
 builder.Services.AddRazorPages();
-
-
+builder.Services.AddSession();
 
 var app = builder.Build();
 
@@ -39,13 +38,9 @@ app.UseAuthorization();
 app.UseAuthorization();
 
 app.MapStaticAssets();
-app.MapRazorPages()
+app.MapRazorPages();
 
-   .WithStaticAssets();
-   app.MapGet("/", context => {
-    context.Response.Redirect("/Registro");
-    return Task.CompletedTask;
-});
 
+app.UseSession();
 
 app.Run();

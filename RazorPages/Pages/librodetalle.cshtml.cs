@@ -56,5 +56,30 @@ public librodetalleModel(ILibroRepository repo) { _repo = repo; }
 
             return Page();
         }
+
+        public IActionResult OnPostAgregarCarrito(int id)
+        {
+            var libros = ObtenerLibros();
+            var libro = libros.FirstOrDefault(l => l.Id == id);
+            if (libro == null) return RedirectToPage("/Index");
+
+            var carrito = GetCarrito();
+
+
+            var existente = carrito.FirstOrDefault(c => c.LibroId == libro.Id);
+            if (existente != null)
+                existente.Cantidad++;
+            else
+                carrito.Add(new CarritoItem
+                {
+                    Id = libro.Id,
+                    Titulo = libro.Titulo,
+                    Autor = libro.Autor,
+                    Descripcion = libro.Descripcion,
+                    Imagen = libro.Imagen,
+                    Precio = libro.Precio
+                });
+
+        }
     }
 }

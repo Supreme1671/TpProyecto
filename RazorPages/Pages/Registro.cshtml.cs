@@ -25,24 +25,40 @@ namespace RazorPages.Pages
         }
 
         public IActionResult OnPost()
-        {
-            if (_registroService.CorreoExiste(NuevoRegistro.Correo))
-            {
-                MensajeError = "El email ya está registrado.";
-                return Page();
-            }
+{
+    Console.WriteLine($"Intentando registrar: {NuevoRegistro.Correo}");
 
-            bool exito = _registroService.RegistrarUsuario(NuevoRegistro);
-            if (exito)
-            {
-                MensajeExito = "¡Registro exitoso!";
-                return RedirectToPage("/login");
-            }
-            else
-            {
-                MensajeError = "Error al registrar el usuario.";
-                return Page();
-            }
-        }
+    // Verificar si el correo existe
+    if (_registroService.CorreoExiste(NuevoRegistro.Correo))
+    {
+        Console.WriteLine("Correo ya existe, pero redirigiendo a la página principal con el registro completo.");
+        // Aquí podés guardar el registro completo en TempData o en sesión si querés mostrarlo en la página principal
+        TempData["Nombre"] = NuevoRegistro.Nombre;
+        TempData["Apellido"] = NuevoRegistro.Apellido;
+        TempData["Correo"] = NuevoRegistro.Correo;
+        
+        return RedirectToPage("/Index"); // Redirige a la página principal
+    }
+
+    // Registrar nuevo usuario
+    bool exito = _registroService.RegistrarUsuario(NuevoRegistro);
+    if (exito)
+    {
+        Console.WriteLine("Usuario registrado correctamente, redirigiendo a la página principal.");
+        TempData["Nombre"] = NuevoRegistro.Nombre;
+        TempData["Apellido"] = NuevoRegistro.Apellido;
+        TempData["Correo"] = NuevoRegistro.Correo;
+
+        return RedirectToPage("/Index"); // Redirige a la página principal
+    }
+    else
+    {
+        MensajeError = "Error al registrar el usuario.";
+        Console.WriteLine("Error: no se pudo insertar en la base de datos.");
+        return Page();
     }
 }
+
+        }
+    }
+
