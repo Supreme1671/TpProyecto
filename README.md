@@ -33,6 +33,9 @@ Repositorio del proyecto:
 
 Duración total estimada: **10.25 horas**
 
+Diagrama de Gantt
+<img width="912" height="233" alt="image" src="https://github.com/user-attachments/assets/94b7b999-9f2c-47d5-9a7a-6b38292c9b09" />
+
 ---
 
 ## 📄 Descripción general
