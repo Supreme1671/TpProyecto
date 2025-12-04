@@ -8,6 +8,60 @@
 - **Yanina Piuca**
 
 ---
+📘 1. Misión
+
+Permitir a los usuarios acceder a una amplia variedad de libros digitales que puedan comprar y leer desde cualquier dispositivo. La plataforma facilita guardar libros favoritos, realizar compras sin necesidad de ir a una librería física y ahorrar tiempo; además, promueve la lectura mediante un entorno totalmente digital.
+🧠 Arquitectura General del Proyecto
+
+El proyecto está dividido en dos grandes módulos principales:
+
+🟦 1. Proyecto Frontend: Razor Pages
+
+Ubicación:
+/RazorPages
+
+Es la aplicación web encargada de mostrar todas las pantallas (UI).
+Usa:
+
+ASP.NET Core Razor Pages
+
+HTML + CSS
+
+C# para manejar la lógica de páginas
+
+Integración con el backend mediante servicios o clases internas
+
+✔ Estructura típica encontrada:
+
+Pages/
+
+Index.cshtml → pantalla principal con listado de libros
+
+Login.cshtml → login y registro
+
+LibroDetalle.cshtml → página del botón "Ver más"
+
+Categorias.cshtml → filtros por género (fantasía, acción, etc.)
+
+Buscar.cshtml → buscador
+
+wwwroot/
+
+CSS
+
+Imágenes
+
+Scripts
+
+Models/
+
+Clases como Libro, Usuario, Categoria, etc.
+
+Services/
+
+Servicios intermediarios entre frontend y backend
+
+Ejemplo: LibroService, UsuarioService
 
 ## 📝 Lista de Tareas
 
