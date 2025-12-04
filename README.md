@@ -17,8 +17,10 @@ El proyecto está dividido en dos grandes módulos principales:
 
 🛠️ Tecnologías Utilizadas
 Tecnología	Uso
-ASP.NET Core 8 (Razor Pages)	Backend + Frontend
+ASP.NET Core 9 (Razor Pages)	Backend + Frontend
+
 C#	Lógica del sistema
+
 Entity Framework Core	ORM y acceso a datos
 SQL Server o MySQL	Base de datos
 Bootstrap 5	Diseño y UI
