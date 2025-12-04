@@ -1,7 +1,4 @@
-# 📚 Proyecto TP – Gestión de Libros (Razor Pages)
-
-Repositorio del proyecto:  
-👉 **https://github.com/Supreme1671/TpProyecto.git**
+# 📚 Proyecto TP – Bookflix (Razor Pages)
 
 ---
 
@@ -12,7 +9,7 @@ Repositorio del proyecto:
 
 ---
 
-## 📝 Lista de Tareas del Proyecto (CPM)
+## 📝 Lista de Tareas
 
 | Tarea | Descripción | Duración | Precedencia | Encargados |
 |------|-------------|----------|-------------|------------|
