@@ -15,53 +15,67 @@ Permitir a los usuarios acceder a una amplia variedad de libros digitales que pu
 
 El proyecto está dividido en dos grandes módulos principales:
 
-🟦 1. Proyecto Frontend: Razor Pages
-
-Ubicación:
+🛠️ Tecnologías Utilizadas
+Tecnología	Uso
+ASP.NET Core 8 (Razor Pages)	Backend + Frontend
+C#	Lógica del sistema
+Entity Framework Core	ORM y acceso a datos
+SQL Server o MySQL	Base de datos
+Bootstrap 5	Diseño y UI
+Identity	Autenticación y roles
+Git / GitHub	Control de versiones
+📁 Estructura del Proyecto
 /RazorPages
+│   Program.cs
+│   appsettings.json
+│
+├── Pages
+│   ├── Libros
+│   │    ├── Index.cshtml
+│   │    ├── Detalle.cshtml
+│   │    ├── Editar.cshtml
+│   │    └── Crear.cshtml
+│   ├── Carrito
+│   └── Usuarios
+│
+├── Data
+│   ├── AppDbContext.cs
+│   └── Migrations/
+│
+└── Models
+     ├── Libro.cs
+     ├── Usuario.cs
+     ├── Compra.cs
+     └── Favorito.cs
 
-Es la aplicación web encargada de mostrar todas las pantallas (UI).
-Usa:
+👨‍💻 Explicación del Código (Resumen Técnico)
+📌 Program.cs
 
-ASP.NET Core Razor Pages
+Configura servicios de Razor Pages.
 
-HTML + CSS
+Conecta EF Core a la base.
 
-C# para manejar la lógica de páginas
+Implementa Identity para registrar/administrar usuarios.
 
-Integración con el backend mediante servicios o clases internas
+Configura rutas, middlewares y seguridad.
 
-✔ Estructura típica encontrada:
+📌 Models
 
-Pages/
+Libro: ID, Título, Autor, Año, Descripción, Precio, Imagen.
 
-Index.cshtml → pantalla principal con listado de libros
+Usuario: Identidad + Perfil.
 
-Login.cshtml → login y registro
+Compra / DetalleCompra: Relación 1-N entre usuario y compra.
 
-LibroDetalle.cshtml → página del botón "Ver más"
+Favorito: Relación M-M entre usuario y libro.
 
-Categorias.cshtml → filtros por género (fantasía, acción, etc.)
+📌 Pages
 
-Buscar.cshtml → buscador
+Las Razor Pages se dividen en carpetas según módulos.
 
-wwwroot/
+Cada página tiene su PageModel con la lógica (OnGet, OnPost).
 
-CSS
-
-Imágenes
-
-Scripts
-
-Models/
-
-Clases como Libro, Usuario, Categoria, etc.
-
-Services/
-
-Servicios intermediarios entre frontend y backend
-
-Ejemplo: LibroService, UsuarioService
+Se maneja el acceso a la base vía inyección de dependencias.
 
 ## 📝 Lista de Tareas
 
