@@ -31,9 +31,6 @@ Repositorio del proyecto:
 
 ---
 
-## 🔗 Camino Crítico (CPM)
-**A – B – C – E – F – G – J**
-
 Duración total estimada: **10.25 horas**
 
 ---
