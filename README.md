@@ -24,29 +24,6 @@ SQL Server o MySQL	Base de datos
 Bootstrap 5	Diseño y UI
 Identity	Autenticación y roles
 Git / GitHub	Control de versiones
-📁 Estructura del Proyecto
-/RazorPages
-│   Program.cs
-│   appsettings.json
-│
-├── Pages
-│   ├── Libros
-│   │    ├── Index.cshtml
-│   │    ├── Detalle.cshtml
-│   │    ├── Editar.cshtml
-│   │    └── Crear.cshtml
-│   ├── Carrito
-│   └── Usuarios
-│
-├── Data
-│   ├── AppDbContext.cs
-│   └── Migrations/
-│
-└── Models
-     ├── Libro.cs
-     ├── Usuario.cs
-     ├── Compra.cs
-     └── Favorito.cs
 
 👨‍💻 Explicación del Código (Resumen Técnico)
 📌 Program.cs
