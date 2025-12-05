@@ -11,50 +11,65 @@
 📘 1. Misión
 
 Permitir a los usuarios acceder a una amplia variedad de libros digitales que puedan comprar y leer desde cualquier dispositivo. La plataforma facilita guardar libros favoritos, realizar compras sin necesidad de ir a una librería física y ahorrar tiempo; además, promueve la lectura mediante un entorno totalmente digital.
-🧠 Arquitectura General del Proyecto
-
-El proyecto está dividido en dos grandes módulos principales:
 
 🛠️ Tecnologías Utilizadas
 Tecnología	Uso
 ASP.NET Core 9 (Razor Pages)	Backend + Frontend
-
 C#	Lógica del sistema
+JSON / MySQL
 
-Entity Framework Core	ORM y acceso a datos
-SQL Server o MySQL	Base de datos
-Bootstrap 5	Diseño y UI
-Identity	Autenticación y roles
-Git / GitHub	Control de versiones
+👨‍💻 Estructura y Explicación Técnica
 
-👨‍💻 Explicación del Código (Resumen Técnico)
 📌 Program.cs
 
 Configura servicios de Razor Pages.
 
-Conecta EF Core a la base.
+Configura sesión para manejo de carrito y usuario logueado.
 
-Implementa Identity para registrar/administrar usuarios.
+Inyección de dependencias para RegistroService y LibroService.
 
-Configura rutas, middlewares y seguridad.
+Configura rutas, middlewares y seguridad básica.
 
-📌 Models
-
-Libro: ID, Título, Autor, Año, Descripción, Precio, Imagen.
-
-Usuario: Identidad + Perfil.
-
-Compra / DetalleCompra: Relación 1-N entre usuario y compra.
-
-Favorito: Relación M-M entre usuario y libro.
 
 📌 Pages
 
-Las Razor Pages se dividen en carpetas según módulos.
+Las Razor Pages se organizan por módulos: Index, Login, Registro, Carrito, LibroDetalle.
 
-Cada página tiene su PageModel con la lógica (OnGet, OnPost).
+Cada página tiene su PageModel con la lógica OnGet / OnPost.
 
-Se maneja el acceso a la base vía inyección de dependencias.
+Libros cargados desde JSON (wwwroot/data/libros.json) o MySQL.
+
+Categorías dinámicas generadas automáticamente.
+
+Filtrado de libros por título, autor y categoría.
+
+Carrito manejado con sesión y mensajes con TempData.
+
+Registro de usuarios con validaciones y login con sesión activa.
+
+Estilos con Bootstrap 5 para formularios, botones y tarjetas de libros.
+
+🔹 Funcionalidades
+
+✅ Visualización de libros desde JSON o base de datos.
+
+✅ Búsqueda de libros por título o autor.
+
+✅ Filtrado por categorías dinámicas.
+
+✅ Carrito de compras en sesión con cantidad y total calculado.
+
+✅ Registro de usuarios con validaciones:
+
+Correo Gmail obligatorio.
+
+Contraseña mínima de 6 caracteres.
+
+✅ Inicio de sesión y sesión activa del usuario.
+
+✅ Mensajes de error y éxito dinámicos en la UI.
+
+✅ Interfaz amigable, responsive y moderna con Bootstrap 5.
 
 ## 📝 Lista de Tareas
 
@@ -78,7 +93,8 @@ Se maneja el acceso a la base vía inyección de dependencias.
 Duración total estimada: **10.25 horas**
 
 Diagrama de Gantt
-<img width="912" height="233" alt="image" src="https://github.com/user-attachments/assets/94b7b999-9f2c-47d5-9a7a-6b38292c9b09" />
+<img width="868" height="250" alt="Captura de pantalla de 2025-12-05 14-24-53" src="https://github.com/user-attachments/assets/a094ebdf-389c-4bf2-9fef-146c772ce437" />
+
 
 ---
 
