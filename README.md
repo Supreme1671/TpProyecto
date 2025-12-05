@@ -11,50 +11,71 @@
 📘 1. Misión
 
 Permitir a los usuarios acceder a una amplia variedad de libros digitales que puedan comprar y leer desde cualquier dispositivo. La plataforma facilita guardar libros favoritos, realizar compras sin necesidad de ir a una librería física y ahorrar tiempo; además, promueve la lectura mediante un entorno totalmente digital.
-🧠 Arquitectura General del Proyecto
-
-El proyecto está dividido en dos grandes módulos principales:
-
 🛠️ Tecnologías Utilizadas
 Tecnología	Uso
 ASP.NET Core 9 (Razor Pages)	Backend + Frontend
-
 C#	Lógica del sistema
-
-Entity Framework Core	ORM y acceso a datos
-SQL Server o MySQL	Base de datos
+JSON / MySQL	Persistencia de datos (libros y usuarios)
 Bootstrap 5	Diseño y UI
-Identity	Autenticación y roles
+Session / TempData	Manejo de carrito y estado de usuario
+Identity / RegistroService	Autenticación y registro de usuarios
 Git / GitHub	Control de versiones
-
 👨‍💻 Explicación del Código (Resumen Técnico)
 📌 Program.cs
 
 Configura servicios de Razor Pages.
 
-Conecta EF Core a la base.
+Configura sesión para manejar carrito y usuario logueado.
 
-Implementa Identity para registrar/administrar usuarios.
+Configura rutas, middlewares y seguridad básica.
 
-Configura rutas, middlewares y seguridad.
+Inyección de dependencias de servicios como RegistroService y LibroService.
 
 📌 Models
 
-Libro: ID, Título, Autor, Año, Descripción, Precio, Imagen.
+Libro: ID, Título, Autor, Año, Descripción, Precio, Imagen, Categoría.
 
-Usuario: Identidad + Perfil.
+Registro/Usuario: Correo, Contraseña, Nombre, Apellido.
 
-Compra / DetalleCompra: Relación 1-N entre usuario y compra.
-
-Favorito: Relación M-M entre usuario y libro.
+CarritoItem: Libro + Cantidad (para manejo del carrito en sesión).
 
 📌 Pages
 
-Las Razor Pages se dividen en carpetas según módulos.
+Las Razor Pages se dividen en carpetas según módulos: Index, Login, Registro, Carrito, LibroDetalle.
 
 Cada página tiene su PageModel con la lógica (OnGet, OnPost).
 
-Se maneja el acceso a la base vía inyección de dependencias.
+Manejo de libros desde JSON (wwwroot/data/libros.json) para cargar datos.
+
+Categorías únicas generadas dinámicamente desde los libros.
+
+Filtro por búsqueda y categoría.
+
+Carrito manejado con sesión (HttpContext.Session) y mensajes con TempData.
+
+Inicio de sesión y registro de usuarios conectados a MySQL vía RegistroService.
+
+Validaciones de usuario y correo con mensajes de error en la interfaz.
+
+Estilos modernos con Bootstrap 5 para formularios, botones y tarjetas de libros.
+
+🔹 Funcionalidades
+
+Visualización de libros desde JSON o base de datos.
+
+Búsqueda por título o autor.
+
+Filtrado por categoría.
+
+Carrito de compras en sesión, con total y cantidad de libros.
+
+Registro de usuarios con validaciones (correo Gmail obligatorio, contraseña mínima).
+
+Inicio de sesión con sesión activa.
+
+Interfaz amigable y responsive con Bootstrap 5.
+
+Mensajes de éxito/error dinámicos para carrito y login/registro.
 
 ## 📝 Lista de Tareas
 
