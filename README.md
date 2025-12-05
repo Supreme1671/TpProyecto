@@ -16,66 +16,123 @@ Tecnología	Uso
 ASP.NET Core 9 (Razor Pages)	Backend + Frontend
 C#	Lógica del sistema
 JSON / MySQL	Persistencia de datos (libros y usuarios)
-Bootstrap 5	Diseño y UI
-Session / TempData	Manejo de carrito y estado de usuario
-Identity / RegistroService	Autenticación y registro de usuarios
+Bootstrap 5	Diseño y UI responsivo
+Session / TempData	Manejo del carrito y estado del usuario
+Identity / RegistroService	Registro y autenticación de usuarios
 Git / GitHub	Control de versiones
-👨‍💻 Explicación del Código (Resumen Técnico)
+👨‍💻 Estructura y Explicación Técnica
 📌 Program.cs
 
 Configura servicios de Razor Pages.
 
-Configura sesión para manejar carrito y usuario logueado.
+Configura sesión para manejo de carrito y usuario logueado.
+
+Inyección de dependencias para RegistroService y LibroService.
 
 Configura rutas, middlewares y seguridad básica.
 
-Inyección de dependencias de servicios como RegistroService y LibroService.
-
 📌 Models
 
-Libro: ID, Título, Autor, Año, Descripción, Precio, Imagen, Categoría.
+Libro:
 
-Registro/Usuario: Correo, Contraseña, Nombre, Apellido.
+public class Libro {
+    public int Id { get; set; }
+    public string Titulo { get; set; }
+    public string Autor { get; set; }
+    public int Anio { get; set; }
+    public string Descripcion { get; set; }
+    public decimal Precio { get; set; }
+    public string Imagen { get; set; }
+    public string Categoria { get; set; }
+}
 
-CarritoItem: Libro + Cantidad (para manejo del carrito en sesión).
+
+Registro/Usuario: correo, contraseña, nombre y apellido.
+
+CarritoItem: libro + cantidad (para el carrito en sesión).
 
 📌 Pages
 
-Las Razor Pages se dividen en carpetas según módulos: Index, Login, Registro, Carrito, LibroDetalle.
+Las Razor Pages se organizan por módulos: Index, Login, Registro, Carrito, LibroDetalle.
 
-Cada página tiene su PageModel con la lógica (OnGet, OnPost).
+Cada página tiene su PageModel con la lógica OnGet / OnPost.
 
-Manejo de libros desde JSON (wwwroot/data/libros.json) para cargar datos.
+Libros cargados desde JSON (wwwroot/data/libros.json) o MySQL.
 
-Categorías únicas generadas dinámicamente desde los libros.
+Categorías dinámicas generadas automáticamente.
 
-Filtro por búsqueda y categoría.
+Filtrado de libros por título, autor y categoría.
 
-Carrito manejado con sesión (HttpContext.Session) y mensajes con TempData.
+Carrito manejado con sesión y mensajes con TempData.
 
-Inicio de sesión y registro de usuarios conectados a MySQL vía RegistroService.
+Registro de usuarios con validaciones y login con sesión activa.
 
-Validaciones de usuario y correo con mensajes de error en la interfaz.
-
-Estilos modernos con Bootstrap 5 para formularios, botones y tarjetas de libros.
+Estilos con Bootstrap 5 para formularios, botones y tarjetas de libros.
 
 🔹 Funcionalidades
 
-Visualización de libros desde JSON o base de datos.
+✅ Visualización de libros desde JSON o base de datos.
 
-Búsqueda por título o autor.
+✅ Búsqueda de libros por título o autor.
 
-Filtrado por categoría.
+✅ Filtrado por categorías dinámicas.
 
-Carrito de compras en sesión, con total y cantidad de libros.
+✅ Carrito de compras en sesión con cantidad y total calculado.
 
-Registro de usuarios con validaciones (correo Gmail obligatorio, contraseña mínima).
+✅ Registro de usuarios con validaciones:
 
-Inicio de sesión con sesión activa.
+Correo Gmail obligatorio.
 
-Interfaz amigable y responsive con Bootstrap 5.
+Contraseña mínima de 6 caracteres.
 
-Mensajes de éxito/error dinámicos para carrito y login/registro.
+✅ Inicio de sesión y sesión activa del usuario.
+
+✅ Mensajes de error y éxito dinámicos en la UI.
+
+✅ Interfaz amigable, responsive y moderna con Bootstrap 5.
+
+📂 Estructura de Carpetas
+Bookflix/
+│
+├─ wwwroot/
+│   ├─ data/
+│   │   └─ libros.json
+│   ├─ img/
+│   └─ css/
+│
+├─ Pages/
+│   ├─ Index.cshtml (+ PageModel)
+│   ├─ Login.cshtml (+ PageModel)
+│   ├─ Registro.cshtml (+ PageModel)
+│   ├─ Carrito.cshtml (+ PageModel)
+│   └─ LibroDetalle.cshtml (+ PageModel)
+│
+├─ Models/
+│   ├─ Libro.cs
+│   ├─ Registro.cs
+│   └─ CarritoItem.cs
+│
+├─ Services/
+│   └─ RegistroService.cs
+│
+└─ Program.cs
+
+🔧 Cómo Ejecutar el Proyecto
+
+Clonar el repositorio:
+
+git clone https://github.com/tuusuario/bookflix.git
+
+
+Restaurar dependencias:
+
+dotnet restore
+
+
+Ejecutar el proyecto:
+
+dotnet run
+
 
 ## 📝 Lista de Tareas
 
