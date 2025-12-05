@@ -1,110 +1,123 @@
-using System.Text.Json;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using RazorPages.Models;
+using System.Text.Json;
+
 namespace RazorPages.Pages
 {
     public class IndexModel : PageModel
     {
         public List<Libro> Libros { get; set; } = new();
         public List<string> Categorias { get; set; } = new();
+
+        [BindProperty(SupportsGet = true)]
         public string Query { get; set; } = string.Empty;
+
+        [BindProperty(SupportsGet = true)]
         public string SelectedCategoria { get; set; } = string.Empty;
 
-        public void OnGet(string query, string categoria)
+        public UsuarioModel ObtenerUsuario()
+{
+    var usuarioJson = HttpContext.Session.GetString("usuario");
+
+    if (string.IsNullOrEmpty(usuarioJson))
+        return null;
+
+    return JsonSerializer.Deserialize<UsuarioModel>(usuarioJson);
+}
+
+
+        public void OnGet()
         {
-            Query = query ?? string.Empty;
-            SelectedCategoria = categoria ?? string.Empty;
-            var all = new List<Libro>
-            {
-                new Libro { Id = 1, Titulo = "Piense y hágase rico", Autor = "Napoleon Hill",Anio = 1967, Precio = 3500, Imagen = "so.jpg", Categoria="Autoayuda" },
-                new Libro { Id = 2, Titulo = "El intercambio", Autor = "John Grishman", Anio = 1943,Precio = 2800, Imagen = "Elintercambio.jpg", Categoria="Novela"},
-                new Libro { Id = 3, Titulo = "El arte de ser nosotros", Imagen = "Elarte.png", Autor = "Walter Riso", Anio = 2023, Precio = 12699, Categoria="Autoayuda" },
-                new Libro { Id = 4, Titulo = "Los ingenieros del caos" , Autor = "Jordi Borràs", Imagen = "1211.jpg", Anio = 2024, Precio = 12699, Categoria="Novela" },
-                new Libro { Id = 5, Titulo = "Deja de ser tu" , Autor = "Joe Dispenza",Imagen = "ses.jpg", Anio = 2024, Precio = 12699, Categoria="Autoayuda" },
-                new Libro { Id = 6, Titulo = "Viaje a el centro de la tierra" , Autor = "Julio Verne", Imagen = "tierra.jpg", Anio = 1864, Precio = 12699, Categoria="Literatura" },
-                new Libro { Id = 7, Titulo = "Gravity Falls Diario 3" , Autor = "Alex Hirsch", Imagen = "diario.jpg", Anio = 2016, Precio = 24900, Categoria="Novela" },
-                new Libro { Id = 8, Titulo = "La niña del sombrero azul" , Autor = "Ana Alcolea", Imagen = "som.jpg", Anio = 2024, Precio = 12699, Categoria="Literatura" },
-                new Libro { Id = 9, Titulo = "El hijo de neptuno (Los heroes del olimpo)" , Autor = "Rick Riordan", Precio = 3800, Imagen = "nepa.jpg", Categoria = "Ficcion"},
-                new Libro { Id = 10, Titulo = "Amanecer en la cosecha (Libro 5 de los juegos del hambre)" , Autor = "Suzanne Collins", Precio = 5000, Imagen = "juegos.jpg", Categoria = "Ficcion"},
-                new Libro { Id = 11, Titulo = "Los gatos de fortuna", Autor = "Anny Duperey",Precio = 14500, Imagen = "gatoFortuna.jpg", Categoria = "Ficcion" },
-                new Libro { Id = 12, Titulo = "El laberinto en llamas (Las pruebas de apolo libro 3)", Autor = "Rick Riordan", Precio = 25600 , Imagen = "ñasss.jpg", Categoria = "Fantasia" },
-                new Libro { Id = 13, Titulo = "Un reino de promesas malditas", Autor = "Lexi Ryan", Precio =16300 , Imagen = "mald.jpg", Categoria = "Novela" },
-                new Libro { Id = 14, Titulo = "La espada de Kuromori", Autor = "Jason Rohan", Precio = 11800, Imagen = "esp.jpg", Categoria = "Ficcion" },
-                new Libro { Id = 15, Titulo = "El veneno del poder", Autor = "Gabriela Cerruti", Precio = 28699, Imagen = "veneno.jpg", Categoria = "Ficcion Politica"},
-                new Libro { Id = 16, Titulo = "Elon Musk", Autor = "Walter Isaacson", Precio = 25899, Imagen = "elon.jpg", Categoria = "Biografia" },
-                new Libro { Id = 17, Titulo = "El crimen de año nuevo", Autor = "Daniel Balmaceda", Precio = 32400,Imagen = "hhhh.jpg", Categoria = "Policial"},
-                new Libro { Id = 18, Titulo = "Alma de gato", Autor = "Ruth Berger", Precio = 17299,Imagen = "almaGatoo.png", Categoria = "Autoayuda"},
-                new Libro { Id = 19, Titulo = "Bajo la misma estrella", Autor = "John Green", Precio = 22499, Imagen = "mismaEstrella.jpg", Categoria = "Novela" },
-                new Libro { Id = 20, Titulo = "Yo antes de ti", Autor = "Jojo Moyes", Precio = 26699,Imagen = "antesDeTi.jpg", Categoria = "Novela"},
-                new Libro { Id = 21, Titulo = "ALGUN TIEMPO ATRAS : LA VIDA DE GUSTAVO CERATI", Autor = "MARCHI, SERGIO", Precio = 40999,Imagen = "librogus.jpg", Categoria = "Biografia"},
-                new Libro { Id = 22, Titulo = "EL LIBRO DE BILL", Autor = "HIRSCH, ALEX", Precio = 50900, Imagen = "librobill.jpg", Categoria = "Ficcion Paranormal"},
-                new Libro { Id = 23, Titulo = "La Niebla", Autor = "Stephen King", Precio = 23939,  Imagen = "libroniebla.jpeg", Categoria = "Novela"},
-                new Libro { Id = 24, Titulo = "EL HOBBIT Y LA FILOSOFIA", Autor = "BASSHAM, GREGORY", Precio = 21500,  Imagen = "librohobbit.jpg", Categoria = "Fantasia"},
-                new Libro { Id = 25, Titulo= "It (Eso)", Autor = "Stephen King", Precio = 59699,Imagen ="libroit.jpg", Categoria = "Ficcion Paranormal"},
-                new Libro { Id = 26, Titulo= "PERONISMO HOY", Autor = "MORENO, GUILLERMO", Precio = 34900, Imagen = "libroperonismo.jpg", Categoria = "Ficcion Politica"},
-                new Libro { Id = 27, Titulo = " LOS CABALLEROS DE LA NOCHE", Autor = "BALMACEDA, DANIEL", Precio = 34999,  Imagen = "librocaballeros.jpg", Categoria = "Policial"},
-                new Libro { Id = 28, Titulo = "El Diario De Ana Frank", Autor = "Frank, Ana", Precio = 21300,Imagen = "librodiarioana.jpg", Categoria = "Biografia"},
-            };
-
-            Categorias = all.Select(l => l.Categoria)
-                           .Where(c => !string.IsNullOrWhiteSpace(c))
-                           .Distinct()
-                           .OrderBy(c => c)
-                           .ToList();
-
-            // Filtro por búsqueda
-            if (!string.IsNullOrWhiteSpace(Query))
-            {
-                all = all.Where(l => l.Titulo.Contains(Query, System.StringComparison.OrdinalIgnoreCase)
-                                   || l.Autor.Contains(Query, System.StringComparison.OrdinalIgnoreCase)
-                                   || (l.Descripcion != null && l.Descripcion.Contains(Query, System.StringComparison.OrdinalIgnoreCase)))
-                         .ToList();
-            }
-
-            // Filtro por categoría
-            if (!string.IsNullOrWhiteSpace(SelectedCategoria))
-            {
-                all = all.Where(l => l.Categoria == SelectedCategoria).ToList();
-            }
-
-            Libros = all;
-        }
-        
-        // Filtro Carrito
-        public IActionResult OnPostAgregarCarrito(int id)
-        {
-            var libro = Libros.FirstOrDefault(l => l.Id == id);
-            if (libro == null) return RedirectToPage();
-
-            var carrito = GetCarrito();
-
-                 var existente = carrito.FirstOrDefault(c => c.Id == id);
-            if (existente != null)
-                existente.Cantidad++;
-            else
-                carrito.Add(new CarritoItem
-                {
-                    Id = libro.Id,
-                    Titulo = libro.Titulo,
-                    Autor = libro.Autor,
-                    Descripcion = libro.Descripcion,
-                    Precio = libro.Precio,
-                    Imagen = libro.Imagen,
-                });
-
-            HttpContext.Session.SetString("carrito", JsonSerializer.Serialize(carrito));
+            CargarLibros();
             
-            TempData["Mensaje"] = $"{libro.Titulo} agregado al carrito.";
-            return RedirectToPage();
+        }
+
+        private List<Libro> ObtenerLibros()
+        {
+            var ruta = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/data/libros.json");
+            var json = System.IO.File.ReadAllText(ruta);
+            return JsonSerializer.Deserialize<List<Libro>>(json) ?? new List<Libro>();
+        }
+
+        private void CargarLibros()
+        {
+            var todosLosLibros = ObtenerLibros();
+
+            // Filtrado por búsqueda
+            Libros = string.IsNullOrEmpty(Query)
+                ? todosLosLibros
+                : todosLosLibros
+                    .Where(l => l.Titulo.Contains(Query, StringComparison.OrdinalIgnoreCase)
+                             || l.Autor.Contains(Query, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
+
+            // Filtrado por categoría
+            if (!string.IsNullOrEmpty(SelectedCategoria))
+            {
+                Libros = Libros
+                    .Where(l => l.Categoria.Equals(SelectedCategoria, StringComparison.OrdinalIgnoreCase))
+                    .ToList();
             }
 
-        private List<CarritoItem> GetCarrito()
-        {
-            var data = HttpContext.Session.GetString("carrito");
-            return data != null ? JsonSerializer.Deserialize<List<CarritoItem>>(data) ?? new() : new();
-            }
+            // Todas las categorías únicas (para mostrar los botones)
+            Categorias = todosLosLibros
+                .Where(l => !string.IsNullOrWhiteSpace(l.Categoria))
+                .Select(l => l.Categoria)
+                .Distinct()
+                .ToList();
         }
-        
+
+        public IActionResult OnPostAgregarCarrito(int id)
+{
+    var libro = ObtenerLibros().FirstOrDefault(l => l.Id == id);
+    if (libro == null)
+    {
+        TempData["Mensaje"] = "Libro no encontrado";
+        return RedirectToPage();
     }
-    
+
+    // Traer carrito
+    var carritoJson = HttpContext.Session.GetString("carrito");
+    var carrito = !string.IsNullOrEmpty(carritoJson)
+        ? JsonSerializer.Deserialize<List<CarritoItem>>(carritoJson)
+        : new List<CarritoItem>();
+
+    // Buscar si ya existe
+    var existente = carrito.FirstOrDefault(c => c.Id == libro.Id);
+    if (existente != null)
+    {
+        existente.Cantidad++;
+    }
+    else
+    {
+        carrito.Add(new CarritoItem
+        {
+            Id = libro.Id,
+            Titulo = libro.Titulo,
+            Autor = libro.Autor,
+            Descripcion = libro.Descripcion,
+            Imagen = libro.Imagen,
+            Precio = libro.Precio,
+            Cantidad = 1
+        });
+    }
+
+    // Guardar carrito
+    HttpContext.Session.SetString("carrito", JsonSerializer.Serialize(carrito));
+    TempData["Mensaje"] = $"'{libro.Titulo}' agregado al carrito";
+
+    return RedirectToPage();
+}
+public int ObtenerCantidadCarrito()
+{
+    var carritoJson = HttpContext.Session.GetString("carrito");
+    var carrito = !string.IsNullOrEmpty(carritoJson)
+        ? JsonSerializer.Deserialize<List<CarritoItem>>(carritoJson)
+        : new List<CarritoItem>();
+    return carrito.Sum(c => c.Cantidad);
+}
+
+
+    }
+}

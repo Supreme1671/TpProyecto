@@ -38,7 +38,11 @@ namespace RazorPages.Pages
                 return Page();
             }
 
+            // Guardamos el nombre o correo en sesión
+            HttpContext.Session.SetString("UsuarioLogueado", Usuario.Nombre ?? Usuario.Correo);
+
             return RedirectToPage("/Index");
         }
+
     }
 }

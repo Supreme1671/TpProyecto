@@ -1,46 +1,53 @@
 using MySql.Data.MySqlClient;
-using System.Data;
 using RazorPages.Services;
 using RazorPages.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Configuración de servicios
 builder.Services.AddRazorPages();
+builder.Services.AddSession(); // Para poder usar HttpContext.Session
+
+// Inyección de dependencias
 builder.Services.AddSingleton<ILibroRepository, InMemoryLibroRepository>();
 builder.Services.AddScoped<RegistroService>();
 builder.Services.AddScoped<LibroService>();
+builder.Services.AddScoped<ProductoService>();
 
 
-
-builder.Services.AddRazorPages();
-builder.Services.AddSession();
+// Configuración de autenticación (opcional, si usás Google)
+builder.Services.AddAuthentication(options =>
+{
+    options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+})
+.AddCookie()
+.AddGoogle(googleOptions =>
+{
+    googleOptions.ClientId = "TU_CLIENT_ID";
+    googleOptions.ClientSecret = "TU_CLIENT_SECRET";
+});
 
 var app = builder.Build();
 
-app.UseStaticFiles();
-// Configure the HTTP request pipeline.
+// Middleware
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
     app.UseHsts();
 }
 
 app.UseHttpsRedirection();
+app.UseStaticFiles();
 
 app.UseRouting();
 
+app.UseSession(); // Debe ir antes de UseAuthentication y UseAuthorization
 app.UseAuthentication();
 app.UseAuthorization();
 
-app.UseAuthorization();
-
-app.MapStaticAssets();
+// Mapear páginas Razor
 app.MapRazorPages();
-
-
-app.UseSession();
 
 app.Run();

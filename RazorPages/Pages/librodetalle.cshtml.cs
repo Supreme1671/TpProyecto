@@ -1,21 +1,37 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using RazorPages.Models;
-using System.Collections.Generic;
-using System.Linq;
+using System.Text.Json;
+
 namespace RazorPages.Pages
 {
     public class librodetalleModel : PageModel
     {
         private readonly ILibroRepository _repo;
-public librodetalleModel(ILibroRepository repo) { _repo = repo; }
 
+        public librodetalleModel(ILibroRepository repo)
+        {
+            _repo = repo;
+        }
 
         public Libro? Libro { get; set; }
 
+        // 👉 NECESARIO PARA QUE LA PÁGINA CARGUE EL LIBRO
         public IActionResult OnGet(int id)
         {
-            var libros = new List<Libro>
+            var libros = ObtenerLibros();
+            Libro = libros.FirstOrDefault(l => l.Id == id);
+
+            if (Libro == null)
+                return RedirectToPage("/Index");
+
+            return Page();
+        }
+
+        // Obtener lista de libros
+        private List<Libro> ObtenerLibros()
+        {
+            return new List<Libro>
             {
                 new Libro { Id = 1, Titulo = "Piense y hágase rico", Autor = "Napoleon Hill",Anio = 1967, Descripcion = "Así de fácil: la riqueza y la realización personal están al alcance de todas aquellas personas que lo desean; basta simplemente con desvelar un secreto, el secreto del éxito. Esta nueva edición de este magnífico clásico está basada en la versión original del autor, y ha sido revisada y corregida ampliamente. Andrew Carnegie, Henry Ford, Theodore Roosevelt, Thomas Edison, Alexander Graham Bell y John D. Rockefeller, entre otros, son algunos de los entrevistados por Napoleon Hill para poder entender las entrañas de su éxito. Cualquiera que ponga en práctica sus principios y su filosofía, sin duda obtendrá todo aquello que desee en la vida.", Precio = 3500, Imagen = "so.jpg"},
                 new Libro { Id = 2, Titulo = "El intercambio", Autor = "Jonh ", Anio = 1605, Descripcion = "Diez días para salvar una vida. Un segundo para ponerle fin. Hace quince años, Mitch McDeere esquivó a la muerte. Y a la mafia. Tras hacerse con diez millones de dólares y desaparecer, vio cómo sus enemigos acababan en la cárcel o en la tumba. Ahora Mitch y su mujer, Abby, viven en Manhattan, donde él se ha abierto camino hasta convertirse en socio del bufete más importante del mundo. Pero cuando su mentor en Roma le pide un favor que le llevará a Estambul y Trípoli, Mitch se ve inmerso en el centro de un siniestro complot con ramificaciones por todo el planeta y que una vez más pondrá en peligro a sus colegas, amigos y familia. Mitch se ha convertido en un experto en mantenerse un paso por delante de sus adversarios, pero ahora que el tiempo se está agotando, ¿será capaz de volver a lograrlo? Esta vez, no hay donde esconderse. Sobre la novela han dicho… «La secuela más ansiosamente esperada de la última década». Daily Express «Una actualización vertiginosa… Grisham, en su versión más clásica, intensifica el suspense». The Wall Street Journal «Una trama maravillosamente construida… Deja sin aliento al lector». Daily Mail «En esta novela Grisham nos regala la clase de narración hipnótica que siempre esperamos de él». Financial Times «Fascinante». Irish Independent «Los fans de Grisham lo van a devorar… La trama y el ritmo son frenéticos». Independente", Precio = 2800, Imagen = "Elintercambio.jpg"},
@@ -28,7 +44,7 @@ public librodetalleModel(ILibroRepository repo) { _repo = repo; }
                 new Libro { Id = 9, Titulo = "EL HIJO DE NEPTUNO ( LOS HEROES DEL OLIMPO )" , Autor = "Rick Riordan", Anio = 2012, Descripcion = "El hijo de Neptuno es la segunda entrega de la serie Los Héroes del Olimpo, escrita por Rick Riordan. La historia sigue a Percy Jackson, un semidiós hijo de Poseidón, que se encuentra en un campamento para semidioses romanos sin recuerdos de su pasado. Junto a sus nuevos amigos, Hazel Levesque y Frank Zhang, Percy emprende una peligrosa misión para salvar al mundo de una amenaza inminente: la resurrección de la diosa romana de la muerte, Proserpina. A lo largo de su aventura, los protagonistas enfrentan desafíos épicos, descubren secretos sobre sus orígenes y fortalecen sus lazos de amistad y lealtad.", Precio = 3800, Imagen = "nepa.jpg"},
                 new Libro { Id = 10, Titulo = "AMANECER EN LA COSECHA ( LIBRO 5 DE LOS JUEGOS DEL HAMBRE )" , Autor = "Suzanne Collins", Anio = 2020, Descripcion = "Amanecer en la cosecha es el quinto libro de la serie Los Juegos del Hambre, escrita por Suzanne Collins. La historia continúa la saga de Katniss Everdeen, quien ahora debe enfrentarse a las consecuencias de su papel como símbolo de la rebelión contra el Capitolio. A medida que la guerra se intensifica, Katniss lucha por proteger a sus seres queridos y encontrar su lugar en un mundo devastado por el conflicto. Con giros inesperados y momentos emotivos, este libro explora temas de sacrificio, esperanza y la lucha por la libertad en medio de la adversidad.", Precio = 5000, Imagen = "juegos.jpg"},
                 new Libro { Id = 11, Titulo = "Los gatos de fortuna", Autor = "Anny Duperey", Anio = 2000, Descripcion = "En este relato lleno de sensibilidad, Anny Duperey cuenta cómo los gatos, llegados a su vida casi siempre por azar, se convirtieron en compañeros indispensables. Cada uno de ellos marcó un momento importante de su existencia, acompañándola en la soledad, en la alegría o en la superación de dificultades. Con ternura y humor, la autora nos ofrece un homenaje a esos “gatos de fortuna” y a la huella que dejan en la vida de quienes los acogen", Precio = 14500, Imagen = "gatoFortuna.jpg" },
-                new Libro { Id = 12, Titulo = "El laberinto en llamas (Las pruebas de apolo libro 3)", Autor = "Rick Riordan", Anio =2018 , Descripcion = "Con la ayuda de algunos amigos semidioses, Lester se las ha apañado para sobrevivir a las dos primeras pruebas: una en el Campamento Mestizo y la otra en Indianápolis, donde Meg recibió la profecía oscura. Las palabras que pronunció sentada en el Trono de la Memoria revelaron que un dream team de tres emperadores romanos supervillanos planea atacar el Campamento Júpiter. Mientras Leo vuela a toda velocidad para alertar el Campamento Romano, Lester y Meg deberán cruzar el Laberinto para encontrar al tercer emperador (y a un Oráculo que habla con juegos de palabras) en algún punto de suroeste de América. Por suerte, había un verso en la profecía que les da un poco de esperanza: Solo el guía ungulado sabe cómo no perderse. Está claro que van a tener un sátiro que los acompañe y Meg sabe exactamente a quién tiene que pedir este favorcito.", Precio = 25600 , Imagen = "gatoFortuna.jpg" },
+                new Libro { Id = 12, Titulo = "El laberinto en llamas (Las pruebas de apolo libro 3)", Autor = "Rick Riordan", Anio =2018 , Descripcion = "Con la ayuda de algunos amigos semidioses, Lester se las ha apañado para sobrevivir a las dos primeras pruebas: una en el Campamento Mestizo y la otra en Indianápolis, donde Meg recibió la profecía oscura. Las palabras que pronunció sentada en el Trono de la Memoria revelaron que un dream team de tres emperadores romanos supervillanos planea atacar el Campamento Júpiter. Mientras Leo vuela a toda velocidad para alertar el Campamento Romano, Lester y Meg deberán cruzar el Laberinto para encontrar al tercer emperador (y a un Oráculo que habla con juegos de palabras) en algún punto de suroeste de América. Por suerte, había un verso en la profecía que les da un poco de esperanza: Solo el guía ungulado sabe cómo no perderse. Está claro que van a tener un sátiro que los acompañe y Meg sabe exactamente a quién tiene que pedir este favorcito.", Precio = 25600 , Imagen = "laspruebas.png" },
                 new Libro { Id = 13, Titulo = "Un reino de promesas malditas", Autor = "Lexi Ryan", Anio = 2022, Descripcion = "Brie haría cualquier cosa antes de hacer un trato con las hadas; la muerte es preferible a sus viles planes. Pero cuando su hermana es secuestrada por el sadico rey de la Corte Unseelie, no hay nada que Brie no haría para poder recuperarla, incluso hacer un trato con el propio rey para robar tres reliquias mágicas de la corte rival. Obtener acceso sin restricciones a la Corte Seelie es más fácil de decir que de hacer. La única opción de Brie es hacerse pasar por una potencial novia para el Principe Ronan, el principe seelie que no es tan malvado como ella pensaba. Reacia a dejar que su corazón la distraiga, acepta la ayuda de una banda de unseelies marginados con su propia agenda secreta. Pero cuando Brie pasa tiempo con su misterioso lider, Finn, se encuentra luchando para resistir su seductor encanto. Atrapada entre dos peligrosas cortes, Brie debe decidir en quien confía con su lealtad… y con su corazón.", Precio =16300 , Imagen = "mald.jpg" },
                 new Libro { Id = 14, Titulo = "La espada de Kuromori", Autor = "Jason Rohan", Anio = 2014, Descripcion = "Un chico llamado Kenny Blackwood llega a Tokio para pasar el verano con su padre. Todo parece indicar que serán unas vacaciones comunes y corrientes. Sin embargo, muy pronto se ve envuelto en una peligrosa e inesperada misión que pondrá a prueba su valor e inteligencia. Este joven héroe descubre que posee poderes especiales y que a su alrededor hay seres mitológicos que inciden en los acontecimientos cotidianos. Kenny deberá encontrar la legendaria Espada de Cielo, la cual le servirá para salvar su vida y evitar una guerra. Con esta arma enfrentará a un conjunto de terroríficas criaturas que no dudarán en matarlo si él les da la oportunidad. Su única ayuda será Kiyomi, una sarcástica y ruda chica.", Precio = 11800, Imagen = "esp.jpg" },
                 new Libro { Id = 15, Titulo = "El veneno del poder", Autor = "Gabriela Cerruti", Anio =2025, Descripcion = "El poder del veneno es un thriller político de Gabriela Cerruti que explora la intimidad del poder en Argentina. Sigue al presidente Salvador Gómez, un mandatario débil en medio de una crisis económica y un escándalo personal por su divorcio y nueva relación. La trama se desencadena con una muerte sospechosa en su departamento privado, que podría ser suicidio, accidente o asesinato. La novela, además de la intriga, ofrece una mirada detallada y realista de los entresijos del poder —desde la Casa Rosada hasta las reuniones políticas—, mostrando sus bajezas y lealtades. La autora, con su experiencia periodística y política, describe con agudeza este mundo desde adentro.", Precio = 28699, Imagen = "veneno.jpg" },
@@ -46,17 +62,24 @@ public librodetalleModel(ILibroRepository repo) { _repo = repo; }
                 new Libro { Id = 27, Titulo = "LOS CABALLEROS DE LA NOCHE", Autor = "BALMACEDA,DANIEL", Anio = 2024, Descripcion = "La aventura del belga Alphonse Kerckhove de Peñaranda y el español Florentino Muñiz es un fascinante relato de ambición, elegancia y de búsqueda de prosperidad a toda costa en la vibrante Buenos Aires de finales del siglo XIX. Juntos, estos dos hombres de mundos diferentes tejieron una trama sin precedentes en la historia y los orígenes del hampa en la Argentina. De los primeros experimentos delictivos en Bruselas a la conformación de una banda que actuaba de noche y llegó a robar un cadáver de la familia Dorrego para pedir rescate. Son los tiempos de la presidencia de Roca, de la policía de Marcos Paz, de los palacetes en los que vivían las familias adineradas de la creciente ciudad. Una trama histórica y policial de un caso que Balmaceda investigó durante años para escribir esta historia que se lee como una novela.", Precio = 34999, Imagen = "librocaballeros.jpg"},
                 new Libro { Id = 28, Titulo = "El Diario De Ana Frank", Autor = "Frank, Ana", Anio = 2008, Descripcion = "Ana Frank nació en Alemania en 1929. A la edad de trece años comenzó a escribir un diario y poco tiempo después ella y su familia tuvieron que ocultarse para evitar los campos de concentración.Era una niña alegre, ingeniosa e inteligente. Delgada, no muy alta, tenía el cabello oscuro como su madre, ojos grises con destellos verdosos, un hoyuelo en el mentón a los que se sumaban dos en las mejillas cuando se reía, como sucedía casi permanentemente.Cuando la Gestapo arrasó el escondite donde se ocultaba la familia Frank dejó desparramados por el piso, viejos libros, revistas y periódicos, entre los cuales los fieles amigos de los Frank buscaron y encontraron el Diario de Ana, guardándolo para cuando ella volviera. Solamente se lo entregaron a Otto Frank, el único sobreviviente de la familia, cuando tuvieron la certeza que la niña no volvería jamás.", Precio = 21300, Imagen = "librodiarioana.jpg"},
             };
-
-            Libro = libros.FirstOrDefault(l => l.Id == id);
-
-            if (Libro == null)
-            {
-                return RedirectToPage("/Index");
-            }
-
-            return Page();
         }
 
+        // Método para obtener el carrito desde sesión
+        private List<CarritoItem> GetCarrito()
+        {
+            var data = HttpContext.Session.GetString("carrito");
+            if (data != null)
+                return JsonSerializer.Deserialize<List<CarritoItem>>(data) ?? new List<CarritoItem>();
+            return new List<CarritoItem>();
+        }
+
+        // Método para guardar el carrito en sesión
+        private void SaveCarrito(List<CarritoItem> carrito)
+        {
+            HttpContext.Session.SetString("carrito", JsonSerializer.Serialize(carrito));
+        }
+
+        // Agregar libro al carrito
         public IActionResult OnPostAgregarCarrito(int id)
         {
             var libros = ObtenerLibros();
@@ -65,11 +88,13 @@ public librodetalleModel(ILibroRepository repo) { _repo = repo; }
 
             var carrito = GetCarrito();
 
-
-            var existente = carrito.FirstOrDefault(c => c.LibroId == libro.Id);
+            var existente = carrito.FirstOrDefault(c => c.Id == libro.Id);
             if (existente != null)
+            {
                 existente.Cantidad++;
+            }
             else
+            {
                 carrito.Add(new CarritoItem
                 {
                     Id = libro.Id,
@@ -77,9 +102,15 @@ public librodetalleModel(ILibroRepository repo) { _repo = repo; }
                     Autor = libro.Autor,
                     Descripcion = libro.Descripcion,
                     Imagen = libro.Imagen,
-                    Precio = libro.Precio
+                    Precio = libro.Precio,
+                    Cantidad = 1
                 });
+            }
 
+            SaveCarrito(carrito);
+
+            TempData["Mensaje"] = $"Se agregó '{libro.Titulo}' al carrito";
+            return RedirectToPage();
         }
     }
 }

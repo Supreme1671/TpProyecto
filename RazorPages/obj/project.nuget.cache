@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WwXbFw/evUo=",
+  "dgSpecHash": "7MCqYFIJ8Lg=",
   "success": true,
   "projectFilePath": "/mnt/Datos/TpProyecto/RazorPages/RazorPages.csproj",
   "expectedPackageFiles": [
@@ -102,7 +102,8 @@
     "/home/et12alumno/.nuget/packages/system.threading.tasks/4.3.0/system.threading.tasks.4.3.0.nupkg.sha512",
     "/home/et12alumno/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "/home/et12alumno/.nuget/packages/system.windows.extensions/8.0.0/system.windows.extensions.8.0.0.nupkg.sha512",
-    "/home/et12alumno/.nuget/packages/zstdsharp.port/0.8.5/zstdsharp.port.0.8.5.nupkg.sha512"
+    "/home/et12alumno/.nuget/packages/zstdsharp.port/0.8.5/zstdsharp.port.0.8.5.nupkg.sha512",
+    "/home/et12alumno/.nuget/packages/microsoft.netcore.app.host.linux-x64/9.0.11/microsoft.netcore.app.host.linux-x64.9.0.11.nupkg.sha512"
   ],
   "logs": []
 }

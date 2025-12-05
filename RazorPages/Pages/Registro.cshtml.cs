@@ -20,45 +20,44 @@ namespace RazorPages.Pages
             _registroService = registroService;
         }
 
-        public void OnGet()
-        {
-        }
+        public void OnGet() { }
 
         public IActionResult OnPost()
 {
-    Console.WriteLine($"Intentando registrar: {NuevoRegistro.Correo}");
-
-    // Verificar si el correo existe
-    if (_registroService.CorreoExiste(NuevoRegistro.Correo))
+    if (!ModelState.IsValid)
     {
-        Console.WriteLine("Correo ya existe, pero redirigiendo a la página principal con el registro completo.");
-        // Aquí podés guardar el registro completo en TempData o en sesión si querés mostrarlo en la página principal
-        TempData["Nombre"] = NuevoRegistro.Nombre;
-        TempData["Apellido"] = NuevoRegistro.Apellido;
-        TempData["Correo"] = NuevoRegistro.Correo;
-        
-        return RedirectToPage("/Index"); // Redirige a la página principal
+        MensajeError = "Por favor completa todos los campos correctamente.";
+        return Page();
     }
 
-    // Registrar nuevo usuario
+    if (_registroService.CorreoExiste(NuevoRegistro.Correo))
+    {
+        MensajeError = "El correo ya está registrado.";
+        return Page();
+    }
+
     bool exito = _registroService.RegistrarUsuario(NuevoRegistro);
     if (exito)
     {
-        Console.WriteLine("Usuario registrado correctamente, redirigiendo a la página principal.");
-        TempData["Nombre"] = NuevoRegistro.Nombre;
-        TempData["Apellido"] = NuevoRegistro.Apellido;
-        TempData["Correo"] = NuevoRegistro.Correo;
+        // Crear objeto del usuario para la sesión
+        var usuario = new UsuarioModel
+        {
+            Nombre = NuevoRegistro.Nombre,
+            Apellido = NuevoRegistro.Apellido,
+            Correo = NuevoRegistro.Correo
+        };
 
-        return RedirectToPage("/Index"); // Redirige a la página principal
+        // Guardarlo en sesión (ahora con la clave correcta)
+        HttpContext.Session.SetString("usuario", System.Text.Json.JsonSerializer.Serialize(usuario));
+
+        return RedirectToPage("/Index");
     }
     else
     {
         MensajeError = "Error al registrar el usuario.";
-        Console.WriteLine("Error: no se pudo insertar en la base de datos.");
         return Page();
     }
 }
 
-        }
     }
-
+}

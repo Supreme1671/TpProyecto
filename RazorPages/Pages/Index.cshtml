@@ -2,59 +2,67 @@
 @model RazorPages.Pages.IndexModel
 @{
     ViewData["Title"] = "Inicio";
+    var usuario = Model.ObtenerUsuario();   // ← AGREGADO
 }
-<form method="get" class="mb-3">
-    <div class="input-group">
-        <input type="text" name="q" class="form-control"
-               placeholder="Buscar libro o autor..."
-               value="@Model.Query" />
-        <button class="btn btn-outline-secondary" type="submit">Buscar</button>
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="text-white">Libros</h2>
+
+    <div>
+        @if (usuario != null)
+        {
+            <span class="text-white me-3">Hola, @usuario.Nombre</span>
+            <a href="/Carrito" class="btn btn-outline-light">Carrito (@Model.ObtenerCantidadCarrito())</a>
+        }
+        else
+        {
+            <a href="/Login" class="btn btn-outline-light">Iniciar sesión</a>
+        }
     </div>
+</div>
+
+
+<!-- BUSCADOR -->
+<form method="get" class="mb-3 d-flex">
+    <input type="text" name="query" class="form-control me-2" placeholder="Buscar libro o autor..." value="@Model.Query" />
+    <button class="btn btn-primary" type="submit">Buscar</button>
 </form>
 
-<!-- Categorías -->
+<!-- CATEGORÍAS -->
 <div class="mb-3">
-    <strong>Categorías:</strong>
-    <a asp-page="/Index" class="btn btn-sm btn-link">Todos</a>
+    <strong class="text-white me-2">Categorías:</strong>
+    <a asp-page="/Index" class="btn btn-sm btn-outline-light me-1">Todos</a>
     @foreach (var cat in Model.Categorias)
     {
-        <a asp-page="/Index" asp-route-categoria="@cat" asp-route-q="@Model.Query"
-           class="btn btn-sm btn-outline-secondary">@cat</a>
+        <a asp-page="/Index" asp-route-categoria="@cat" asp-route-query="@Model.Query"
+           class="btn btn-sm btn-outline-light me-1">@cat</a>
     }
 </div>
 
+<!-- LISTA DE LIBROS -->
 <div class="row">
-    @foreach (var libros in Model.Libros)
+    @foreach (var libro in Model.Libros)
     {
-        <div class="card-body d-flex flex-column"  style="width: 200px;">
-        <div class="Imagenes">
-            <img src="~/img/@libros.Imagen" alt="@libros.Titulo" class="img-fluid">
-        </div>
-        <div class="card"></div>
-        <h3>@libros.Titulo</h3>
-        <p>@libros.Autor</p>
-        <p>$@libros.Precio</p>
-          <a asp-page="/librodetalle" asp-route-id="@libros.Id" class="btn btn-primary mt-2">Ver más</a>
+        <div class="card m-2" style="width: 200px;">
+            <img src="~/img/@libro.Imagen" class="card-img-top" alt="@libro.Titulo">
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title">@libro.Titulo</h5>
+                <p class="card-text">@libro.Autor</p>
+                <p class="card-text">$@libro.Precio</p>
+
+                <a asp-page="/librodetalle" asp-route-id="@libro.Id" class="btn btn-primary mb-2">Ver más</a>
+
+                <form method="post" asp-page-handler="AgregarCarrito" asp-route-id="@libro.Id">
+                    <button type="submit" class="btn btn-success">Agregar al carrito</button>
+                </form>
+            </div>
         </div>
     }
 </div>
-
 
 @if (TempData["Mensaje"] != null)
 {
-    <div class="alert alert-success">
+    <div class="alert alert-success mt-3">
         @TempData["Mensaje"]
     </div>
 }
-
-@foreach (var libros in Model.Libros)
-{
-    <div>
-        <h3>@libros.Titulo</h3>
-        <a asp-page="/librodetalle" asp-route-id="@libros.Id">Ver más</a>
-        <form method="post" asp-page-handler="AgregarCarrito" asp-route-id="@libros.Id">
-            <button type="submit" class="btn btn-success mt-2"> Agregar al carrito</button>
-        </form>
-    </div>
-}
-

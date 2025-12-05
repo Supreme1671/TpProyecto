@@ -1,0 +1,282 @@
+[
+  {
+    "Id": 1,
+    "Titulo": "Piense y hágase rico",
+    "Autor": "Napoleon Hill",
+    "Anio": 1967,
+    "Precio": 3500,
+    "Imagen": "so.jpg",
+    "Categoria": "Autoayuda",
+    "Descripcion": "Así de fácil: la riqueza y la realización personal están al alcance de todos los que lo desean..."
+  },
+  {
+    "Id": 2,
+    "Titulo": "El intercambio",
+    "Autor": "John Grisham",
+    "Anio": 1943,
+    "Precio": 2800,
+    "Imagen": "Elintercambio.jpg",
+    "Categoria": "Novela",
+    "Descripcion": "Diez días para salvar una vida. Mitch McDeere esquiva a la mafia y se ve envuelto en un siniestro complot internacional..."
+  },
+  {
+    "Id": 3,
+    "Titulo": "El arte de ser nosotros",
+    "Autor": "Walter Riso",
+    "Anio": 2018,
+    "Precio": 3200,
+    "Imagen": "Elarte.png",
+    "Categoria": "Autoayuda",
+    "Descripcion": "Guía práctica para aprender a amarnos y vivir en armonía con los demás, superando dependencia emocional y fortaleciendo autoestima..."
+  },
+  {
+    "Id": 4,
+    "Titulo": "Los ingenieros del caos",
+    "Autor": "Jordi Borràs",
+    "Anio": 2020,
+    "Precio": 3000,
+    "Imagen": "1211.jpg",
+    "Categoria": "Periodismo",
+    "Descripcion": "Investigación sobre cómo redes sociales y plataformas digitales manipulan la opinión pública y desestabilizan democracias..."
+  },
+  {
+    "Id": 5,
+    "Titulo": "Deja de ser tú",
+    "Autor": "Joe Dispenza",
+    "Anio": 2017,
+    "Precio": 4000,
+    "Imagen": "ses.jpg",
+    "Categoria": "Autoayuda",
+    "Descripcion": "Explora la conexión mente-cuerpo y cómo transformar la vida cambiando pensamientos y emociones..."
+  },
+  {
+    "Id": 6,
+    "Titulo": "Viaje al centro de la tierra",
+    "Autor": "Julio Verne",
+    "Anio": 1864,
+    "Precio": 2500,
+    "Imagen": "tierra.jpg",
+    "Categoria": "Aventura",
+    "Descripcion": "Expedición del profesor Otto Lidenbrock y su sobrino Axel a un mundo subterráneo lleno de maravillas y peligros..."
+  },
+  {
+    "Id": 7,
+    "Titulo": "Gravity Falls Diario 3",
+    "Autor": "Alex Hirsch",
+    "Anio": 2016,
+    "Precio": 4500,
+    "Imagen": "diario.jpg",
+    "Categoria": "Juvenil",
+    "Descripcion": "Recopilación de misterios y secretos del pueblo ficticio de Gravity Falls, con ilustraciones y notas de la serie animada..."
+  },
+  {
+    "Id": 8,
+    "Titulo": "La niña del sombrero azul",
+    "Autor": "Ana Alcolea",
+    "Anio": 2020,
+    "Precio": 2700,
+    "Imagen": "som.jpg",
+    "Categoria": "Juvenil",
+    "Descripcion": "Lucía encuentra un sombrero azul y se ve envuelta en aventuras y secretos familiares que le enseñan valentía..."
+  },
+  {
+    "Id": 9,
+    "Titulo": "El hijo de Neptuno (Los Héroes del Olimpo)",
+    "Autor": "Rick Riordan",
+    "Anio": 2012,
+    "Precio": 3800,
+    "Imagen": "nepa.jpg",
+    "Categoria": "Juvenil",
+    "Descripcion": "Percy Jackson emprende una peligrosa misión con nuevos amigos para salvar el mundo y enfrentar a la diosa romana Proserpina..."
+  },
+  {
+    "Id": 10,
+    "Titulo": "Amanecer en la cosecha (Los Juegos del Hambre 5)",
+    "Autor": "Suzanne Collins",
+    "Anio": 2020,
+    "Precio": 5000,
+    "Imagen": "juegos.jpg",
+    "Categoria": "Novela",
+    "Descripcion": "Katniss Everdeen enfrenta las consecuencias de su papel en la rebelión contra el Capitolio, con giros inesperados y momentos emotivos..."
+  },
+  {
+    "Id": 11,
+    "Titulo": "Los gatos de fortuna",
+    "Autor": "Anny Duperey",
+    "Anio": 2000,
+    "Precio": 14500,
+    "Imagen": "gatoFortuna.jpg",
+    "Categoria": "Relatos",
+    "Descripcion": "Historias conmovedoras sobre gatos que transforman la vida de las personas con humor y ternura..."
+  },
+  {
+    "Id": 12,
+    "Titulo": "El laberinto en llamas (Las pruebas de Apolo 3)",
+    "Autor": "Rick Riordan",
+    "Anio": 2018,
+    "Precio": 25600,
+    "Imagen": "laspruebas.png",
+    "Categoria": "Juvenil",
+    "Descripcion": "Lester y Meg enfrentan pruebas para salvar el Campamento Romano y derrotar a emperadores romanos supervillanos..."
+  },
+  {
+    "Id": 13,
+    "Titulo": "Un reino de promesas malditas",
+    "Autor": "Lexi Ryan",
+    "Anio": 2022,
+    "Precio": 16300,
+    "Imagen": "mald.jpg",
+    "Categoria": "Novela",
+    "Descripcion": "Brie debe rescatar a su hermana secuestrada por el rey de la Corte Unseelie y enfrenta intrigas, magia y un misterioso líder..."
+  },
+  {
+    "Id": 14,
+    "Titulo": "La espada de Kuromori",
+    "Autor": "Jason Rohan",
+    "Anio": 2014,
+    "Precio": 11800,
+    "Imagen": "esp.jpg",
+    "Categoria": "Aventura",
+    "Descripcion": "Kenny Blackwood llega a Tokio y descubre que posee poderes especiales para enfrentar criaturas mitológicas y salvar su vida..."
+  },
+  {
+    "Id": 15,
+    "Titulo": "El veneno del poder",
+    "Autor": "Gabriela Cerruti",
+    "Anio": 2025,
+    "Precio": 28699,
+    "Imagen": "veneno.jpg",
+    "Categoria": "Thriller",
+    "Descripcion": "Thriller político que explora la intimidad del poder en Argentina y un misterioso asesinato en el entorno presidencial..."
+  },
+  {
+    "Id": 16,
+    "Titulo": "Elon Musk",
+    "Autor": "Walter Isaacson",
+    "Anio": 2023,
+    "Precio": 25899,
+    "Imagen": "elon.jpg",
+    "Categoria": "Biografía",
+    "Descripcion": "Biografía que analiza los traumas infantiles, éxitos y polémicas de Elon Musk, incluyendo Tesla, SpaceX y la compra de Twitter..."
+  },
+  {
+    "Id": 17,
+    "Titulo": "El crimen de año nuevo",
+    "Autor": "Daniel Balmaceda",
+    "Anio": 2025,
+    "Precio": 32400,
+    "Imagen": "hhhh.jpg",
+    "Categoria": "Novela histórica",
+    "Descripcion": "Tragedia en un conventillo de Buenos Aires en 1880, con secretos, sospechas y giros inesperados entre los vecinos..."
+  },
+  {
+    "Id": 18,
+    "Titulo": "Alma de gato",
+    "Autor": "Ruth Berger",
+    "Anio": 2011,
+    "Precio": 17299,
+    "Imagen": "almaGatoo.png",
+    "Categoria": "Relatos",
+    "Descripcion": "Colección de historias que celebran el vínculo único entre humanos y gatos, llenas de amor y complicidad felina..."
+  },
+  {
+    "Id": 19,
+    "Titulo": "Bajo la misma estrella",
+    "Autor": "John Green",
+    "Anio": 2012,
+    "Precio": 22499,
+    "Imagen": "mismaEstrella.jpg",
+    "Categoria": "Juvenil",
+    "Descripcion": "Hazel y Augustus enfrentan el cáncer y descubren el amor, la vida y el significado de existir..."
+  },
+  {
+    "Id": 20,
+    "Titulo": "Yo antes de ti",
+    "Autor": "Jojo Moyes",
+    "Anio": 2012,
+    "Precio": 26699,
+    "Imagen": "antesDeTi.jpg",
+    "Categoria": "Novela",
+    "Descripcion": "Louisa Clark cuida a Will Traynor, y juntos viven una historia de amor y decisiones difíciles que transforman sus vidas..."
+  },
+  {
+    "Id": 21,
+    "Titulo": "Algún tiempo atrás: La vida de Gustavo Cerati",
+    "Autor": "Sergio Marchi",
+    "Anio": 2023,
+    "Precio": 40999,
+    "Imagen": "librogus.jpg",
+    "Categoria": "Biografía",
+    "Descripcion": "Recorrido vital y creativo de Gustavo Cerati, desde su infancia hasta su carrera musical, con entrevistas y archivos exclusivos..."
+  },
+  {
+    "Id": 22,
+    "Titulo": "El libro de Bill",
+    "Autor": "Alex Hirsch",
+    "Anio": 2024,
+    "Precio": 50900,
+    "Imagen": "librobill.jpg",
+    "Categoria": "Juvenil",
+    "Descripcion": "Bill Clave narra su versión de Gravity Falls, con acertijos, secretos familiares y un relato lleno de humor y caos..."
+  },
+  {
+    "Id": 23,
+    "Titulo": "La Niebla",
+    "Autor": "Stephen King",
+    "Anio": 2007,
+    "Precio": 23939,
+    "Imagen": "libroniebla.jpeg",
+    "Categoria": "Terror",
+    "Descripcion": "Historias de terror que transforman un supermercado en último bastión de la humanidad frente a una invasión desconocida..."
+  },
+  {
+    "Id": 24,
+    "Titulo": "El Hobbit y la filosofía",
+    "Autor": "Gregory Bassham",
+    "Anio": 2014,
+    "Precio": 21500,
+    "Imagen": "librohobbit.jpg",
+    "Categoria": "Filosofía",
+    "Descripcion": "Explora las preguntas filosóficas y valores de El Hobbit, presentando reflexiones sobre la metafísica y la moral de Tolkien..."
+  },
+  {
+    "Id": 25,
+    "Titulo": "It (Eso)",
+    "Autor": "Stephen King",
+    "Anio": 2022,
+    "Precio": 59699,
+    "Imagen": "libroit.jpg",
+    "Categoria": "Terror",
+    "Descripcion": "Novela de terror donde un payaso siniestro siembra destrucción en Derry, con giros de horror psicológico y misterio..."
+  },
+  {
+    "Id": 26,
+    "Titulo": "Peronismo Hoy",
+    "Autor": "Guillermo Moreno",
+    "Anio": 2024,
+    "Precio": 34900,
+    "Imagen": "libroperonismo.jpg",
+    "Categoria": "Política",
+    "Descripcion": "Análisis de la política argentina reciente y propuestas para la reorganización del movimiento justicialista..."
+  },
+  {
+    "Id": 27,
+    "Titulo": "Los caballeros de la noche",
+    "Autor": "Daniel Balmaceda",
+    "Anio": 2024,
+    "Precio": 34999,
+    "Imagen": "librocaballeros.jpg",
+    "Categoria": "Novela histórica",
+    "Descripcion": "Relato histórico-policial sobre la formación de bandas delictivas en Buenos Aires y aventuras de sus protagonistas..."
+  },
+  {
+    "Id": 28,
+    "Titulo": "El Diario de Ana Frank",
+    "Autor": "Ana Frank",
+    "Anio": 2008,
+    "Precio": 21300,
+    "Imagen": "librodiarioana.jpg",
+    "Categoria": "Biografía",
+    "Descripcion": "Diario de Ana Frank, donde narra su vida oculta durante la ocupación nazi y sus reflexiones personales y familiares..."
+  }
+]
