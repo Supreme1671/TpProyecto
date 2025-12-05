@@ -78,7 +78,8 @@ Se maneja el acceso a la base vía inyección de dependencias.
 Duración total estimada: **10.25 horas**
 
 Diagrama de Gantt
-<img width="912" height="233" alt="image" src="https://github.com/user-attachments/assets/94b7b999-9f2c-47d5-9a7a-6b38292c9b09" />
+<img width="868" height="250" alt="Captura de pantalla de 2025-12-05 14-24-53" src="https://github.com/user-attachments/assets/a094ebdf-389c-4bf2-9fef-146c772ce437" />
+
 
 ---
 
