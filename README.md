@@ -30,25 +30,6 @@ Inyección de dependencias para RegistroService y LibroService.
 
 Configura rutas, middlewares y seguridad básica.
 
-📌 Models
-
-Libro:
-
-public class Libro {
-    public int Id { get; set; }
-    public string Titulo { get; set; }
-    public string Autor { get; set; }
-    public int Anio { get; set; }
-    public string Descripcion { get; set; }
-    public decimal Precio { get; set; }
-    public string Imagen { get; set; }
-    public string Categoria { get; set; }
-}
-
-
-Registro/Usuario: correo, contraseña, nombre y apellido.
-
-CarritoItem: libro + cantidad (para el carrito en sesión).
 
 📌 Pages
 
