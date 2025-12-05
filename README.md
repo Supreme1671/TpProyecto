@@ -11,16 +11,15 @@
 📘 1. Misión
 
 Permitir a los usuarios acceder a una amplia variedad de libros digitales que puedan comprar y leer desde cualquier dispositivo. La plataforma facilita guardar libros favoritos, realizar compras sin necesidad de ir a una librería física y ahorrar tiempo; además, promueve la lectura mediante un entorno totalmente digital.
+
 🛠️ Tecnologías Utilizadas
 Tecnología	Uso
 ASP.NET Core 9 (Razor Pages)	Backend + Frontend
 C#	Lógica del sistema
-JSON / MySQL	Persistencia de datos (libros y usuarios)
-Bootstrap 5	Diseño y UI responsivo
-Session / TempData	Manejo del carrito y estado del usuario
-Identity / RegistroService	Registro y autenticación de usuarios
-Git / GitHub	Control de versiones
+JSON / MySQL
+
 👨‍💻 Estructura y Explicación Técnica
+
 📌 Program.cs
 
 Configura servicios de Razor Pages.
@@ -90,49 +89,6 @@ Contraseña mínima de 6 caracteres.
 ✅ Mensajes de error y éxito dinámicos en la UI.
 
 ✅ Interfaz amigable, responsive y moderna con Bootstrap 5.
-
-📂 Estructura de Carpetas
-Bookflix/
-│
-├─ wwwroot/
-│   ├─ data/
-│   │   └─ libros.json
-│   ├─ img/
-│   └─ css/
-│
-├─ Pages/
-│   ├─ Index.cshtml (+ PageModel)
-│   ├─ Login.cshtml (+ PageModel)
-│   ├─ Registro.cshtml (+ PageModel)
-│   ├─ Carrito.cshtml (+ PageModel)
-│   └─ LibroDetalle.cshtml (+ PageModel)
-│
-├─ Models/
-│   ├─ Libro.cs
-│   ├─ Registro.cs
-│   └─ CarritoItem.cs
-│
-├─ Services/
-│   └─ RegistroService.cs
-│
-└─ Program.cs
-
-🔧 Cómo Ejecutar el Proyecto
-
-Clonar el repositorio:
-
-git clone https://github.com/tuusuario/bookflix.git
-
-
-Restaurar dependencias:
-
-dotnet restore
-
-
-Ejecutar el proyecto:
-
-dotnet run
-
 
 ## 📝 Lista de Tareas
 
