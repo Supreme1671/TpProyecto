@@ -4,13 +4,18 @@ using RazorPages.Models;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Authentication.Google;
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Configuración de servicios
+
 builder.Services.AddRazorPages();
 builder.Services.AddSession(); // Para poder usar HttpContext.Session
 
 // Inyección de dependencias
+
+builder.Services.AddSingleton<ConexionService>();
+
 builder.Services.AddSingleton<ILibroRepository, InMemoryLibroRepository>();
 builder.Services.AddScoped<RegistroService>();
 builder.Services.AddScoped<LibroService>();

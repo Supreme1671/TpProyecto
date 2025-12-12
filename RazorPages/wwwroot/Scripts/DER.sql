@@ -7,7 +7,7 @@ CREATE TABLE Registro (
     Correo VARCHAR(100) NOT NULL UNIQUE,
     Contrasena VARCHAR(50) NOT NULL,
     Nombre VARCHAR(100) NOT NULL,
-    Apellido VARCHAR(100) NOT NULL
+    Apellido VARCHAR(100) NOT NULL;
 );
 
 CREATE TABLE Libro (
@@ -18,6 +18,6 @@ CREATE TABLE Libro (
     Descripcion TEXT,
     Precio DECIMAL(10,2) NOT NULL,
     Imagen VARCHAR(255),
-    Categoria VARCHAR(100)
+    Categoria VARCHAR(100);
 );
 

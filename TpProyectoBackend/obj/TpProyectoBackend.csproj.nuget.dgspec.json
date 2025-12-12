@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/Datos/TpProyecto/TpProyectoBackend/TpProyectoBackend.csproj": {}
+    "C:\\proyecto\\TpProyecto\\TpProyectoBackend\\TpProyectoBackend.csproj": {}
   },
   "projects": {
-    "/mnt/Datos/TpProyecto/TpProyectoBackend/TpProyectoBackend.csproj": {
+    "C:\\proyecto\\TpProyecto\\TpProyectoBackend\\TpProyectoBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/Datos/TpProyecto/TpProyectoBackend/TpProyectoBackend.csproj",
+        "projectUniqueName": "C:\\proyecto\\TpProyecto\\TpProyectoBackend\\TpProyectoBackend.csproj",
         "projectName": "TpProyectoBackend",
-        "projectPath": "/mnt/Datos/TpProyecto/TpProyectoBackend/TpProyectoBackend.csproj",
-        "packagesPath": "/home/et12alumno/.nuget/packages/",
-        "outputPath": "/mnt/Datos/TpProyecto/TpProyectoBackend/obj/",
+        "projectPath": "C:\\proyecto\\TpProyecto\\TpProyectoBackend\\TpProyectoBackend.csproj",
+        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\proyecto\\TpProyecto\\TpProyectoBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/et12alumno/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "/usr/lib/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,7 +38,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.100"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net9.0": {
@@ -55,12 +54,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-x64",
-              "version": "[9.0.11, 9.0.11]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -69,7 +62,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

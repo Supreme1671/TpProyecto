@@ -2,11 +2,21 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using RazorPages.Models;
 using System.Text.Json;
+using RazorPages.Services;
+using MySql.Data.MySqlClient;
+
 
 namespace RazorPages.Pages
 {
     public class IndexModel : PageModel
     {
+        private readonly ConexionService _conexionService;
+
+        public IndexModel(ConexionService conexionService)
+        {
+            _conexionService = conexionService;
+        }
+
         public List<Libro> Libros { get; set; } = new();
         public List<string> Categorias { get; set; } = new();
 
@@ -17,6 +27,7 @@ namespace RazorPages.Pages
         public string SelectedCategoria { get; set; } = string.Empty;
 
         public UsuarioModel ObtenerUsuario()
+        
 {
     var usuarioJson = HttpContext.Session.GetString("usuario");
 
@@ -30,18 +41,41 @@ namespace RazorPages.Pages
         public void OnGet()
         {
             CargarLibros();
+            ObtenerLibros();
             
         }
 
         private List<Libro> ObtenerLibros()
         {
-            var ruta = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot/data/libros.json");
-            var json = System.IO.File.ReadAllText(ruta);
-            return JsonSerializer.Deserialize<List<Libro>>(json) ?? new List<Libro>();
+            var libros = new List<Libro>();
+
+            using var conexion = _conexionService.ObtenerConexion();
+            conexion.Open();
+
+            var comando = new MySqlCommand("SELECT * FROM libro", conexion);
+            var reader = comando.ExecuteReader();
+
+        while (reader.Read())
+        {
+            libros.Add(new Libro
+            {
+                Id = reader.GetInt32("Id"),
+                Titulo = reader.GetString("Titulo"),
+                Autor = reader.GetString("Autor"),
+                Anio = reader.GetInt32("Anio"),
+                Descripcion = reader.GetString("Descripcion"),
+                Precio = reader.GetDecimal("Precio"),
+                Categoria = reader.GetString("Categoria")
+            });
         }
+
+        return libros;
+
+    }
 
         private void CargarLibros()
         {
+            
             var todosLosLibros = ObtenerLibros();
 
             // Filtrado por búsqueda
@@ -121,3 +155,4 @@ public int ObtenerCantidadCarrito()
 
     }
 }
+    
