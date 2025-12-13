@@ -52,7 +52,7 @@ app.UseSession(); // Debe ir antes de UseAuthentication y UseAuthorization
 app.UseAuthentication();
 app.UseAuthorization();
 
-// Mapear páginas Razor2
+// Mapear páginas Razor
 app.MapRazorPages();
 
 app.Run();
